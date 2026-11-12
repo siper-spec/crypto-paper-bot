@@ -1,14 +1,12 @@
 name: Pump.fun free launch capture
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/pumpfun-launch-capture.yml
   schedule:
     - cron: '7,22,37,52 * * * *'
 
 permissions:
   contents: read
+  actions: write
 
 concurrency:
   group: pumpfun-launch-capture
@@ -16,6 +14,8 @@ concurrency:
 
 jobs:
   capture:
+    # No additional data collection after the third workflow run.
+    if: ${{ github.run_number <= 3 }}
     runs-on: ubuntu-latest
     timeout-minutes: 14
     steps:
@@ -43,3 +43,15 @@ jobs:
           path: captures/
           if-no-files-found: warn
           retention-days: 14
+
+  stop_schedule:
+    if: ${{ always() && github.run_number >= 3 }}
+    needs: [capture]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disable this workflow after third run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method PUT "repos/$GITHUB_REPOSITORY/actions/workflows/pumpfun-launch-capture.yml/disable"
+          echo "Pump.fun collector schedule disabled after workflow run #$GITHUB_RUN_NUMBER."
