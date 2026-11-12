@@ -1,0 +1,45 @@
+name: Pump.fun free launch capture
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/pumpfun-launch-capture.yml
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pumpfun-launch-capture
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - name: Checkout isolated research branch
+        uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - name: Python runtime
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install WebSocket client
+        run: python -m pip install -r pumpfun/requirements.txt
+      - name: Capture launches, never trade
+        env:
+          CAPTURE_SECONDS: '660'
+        run: |
+          mkdir -p captures
+          python pumpfun/capture_batch.py --seconds "$CAPTURE_SECONDS" --out captures/pumpfun-launches.jsonl
+      - name: Upload event file and summary, even if capture errors
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pumpfun-launches-${{ github.run_id }}
+          path: captures/
+          if-no-files-found: warn
+          retention-days: 14
