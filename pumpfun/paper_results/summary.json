@@ -1,0 +1,20 @@
+{
+  "strategy": "public_launch_momentum_baseline",
+  "real_orders": false,
+  "wallet_copying": false,
+  "started": "2026-11-13T08:28:54.077598+00:00",
+  "ended": "2026-11-13T08:37:54.077783+00:00",
+  "starting_balance_eur": 50.0,
+  "cash_ending_eur": 50.0,
+  "realized_pnl_eur": 0.0,
+  "open_unresolved": [],
+  "trades_completed": 0,
+  "launches": 48,
+  "quote_samples": 290,
+  "price_error_count": 0,
+  "errors": [],
+  "fee_per_side_assumed_pct": 1.75,
+  "slippage_per_side_assumed_pct": 2.0,
+  "fixed_fee_per_order_assumed_eur": 0.02,
+  "limitations": "DEX screen quotes not guaranteed executable; momentum only, no account trade stream"
+}
