@@ -1,0 +1,41 @@
+name: Pump.fun three-strategy paper comparison (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/pumpfun-three-strategies-once.yml'
+permissions:
+  contents: write
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests websocket-client
+      - name: Check Python source
+        run: python -m py_compile pumpfun/paper_compare_v2.py
+      - name: Compare conservative, balanced, and aggressive strategies
+        env:
+          SESSION_SECONDS: '600'
+        run: python pumpfun/paper_compare_v2.py
+      - name: Store full result files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pumpfun-three-strategy-paper-results
+          path: pumpfun/compare_results/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Commit JSON and CSV results to research branch
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pumpfun/compare_results/
+          git commit -m 'Save Pump.fun three-strategy paper results' || exit 0
+          git push origin HEAD:pumpfun-readonly-collector
