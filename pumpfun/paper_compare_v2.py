@@ -4,7 +4,7 @@ BASE=50.;SIZE=2.;FEE=.0175;SLIP=.02;FLAT=.02
 RULES={
  "conservative":dict(liq=2500,caplo=10000,caphi=100000,buys=12,ratio=1.5,momlo=.03,momhi=.3,age=35,maxage=420,creator=2,obs=3,tp=1.5,stop=.7,hold=150),
  "balanced":dict(liq=500,caplo=4000,caphi=500000,buys=5,ratio=1.1,momlo=0,momhi=.8,age=20,maxage=600,creator=3,obs=2,tp=1.35,stop=.65,hold=120),
- "aggressive":dict(liq=100,caplo=0,caphi=1000000,buys=0,ratio=0,momlo=-.3,momhi=2,age=10,maxage=900,creator=999,obs=2,tp=1.25,stop=.6,hold=90)}
+ "aggressive":dict(liq=0,caplo=0,caphi=1000000,buys=0,ratio=0,momlo=-.3,momhi=2,age=10,maxage=900,creator=999,obs=2,tp=1.25,stop=.6,hold=90)}
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def f(x):
  try:return float(x)
