@@ -1,0 +1,17 @@
+{
+  "sample_launches": 95,
+  "dex_pairs_found": 87,
+  "dex_history_checked": 10,
+  "dex_errors": [],
+  "tokens_from_creators_with_3plus_launches": 36,
+  "post_dex_peak_2x": 3,
+  "post_dex_peak_5x": 1,
+  "post_dex_peak_10x": 1,
+  "caveats": [
+    "Only DEX pools: pre-graduation bonding-curve pumps are NOT measured.",
+    "Unlisted tokens and missing history have UNKNOWN returns, not zero.",
+    "OHLCV highs are not guaranteed executable sell prices.",
+    "Peak rates cannot establish 50-euro trading P&L or stop order fills.",
+    "Top 12 by present liquidity creates survivorship bias; never interpret as token-wide hit rate."
+  ]
+}
