@@ -1,0 +1,5265 @@
+{
+  "wallets": [
+    {
+      "rank": 1,
+      "own_rank": 16,
+      "address": "9B3R9F54rtugc1QoFa8o3z8uUCnxcTTAJqnkF6mRkf8b",
+      "class": "winner",
+      "why": "took out 20985.12 SOL more than it put in (1.41x) over 17797 coin-weeks (17719 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 20985.120813,
+      "put_in": 51546.771217,
+      "took_out": 72531.89203,
+      "coins": 17719,
+      "first_seen": "2025-08-04T10:56:43Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 16,
+        "median_hold_s": 149,
+        "fast_share": 0.125,
+        "snipe_share": 0,
+        "flip_share": 0.083
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 342,
+          "closed": 342,
+          "open": 0,
+          "net_closed_sol": -3.93,
+          "win_share": 0.19,
+          "median_return": 0.803,
+          "best_copy_sol": 0.44,
+          "lower_bound_sol": -5.48
+        },
+        "delay_3": {
+          "copies": 342,
+          "closed": 342,
+          "open": 0,
+          "net_closed_sol": -3.97,
+          "win_share": 0.193,
+          "median_return": 0.821,
+          "best_copy_sol": 0.39,
+          "lower_bound_sol": -5.48
+        },
+        "delay_8": {
+          "copies": 342,
+          "closed": 342,
+          "open": 0,
+          "net_closed_sol": -3.59,
+          "win_share": 0.216,
+          "median_return": 0.821,
+          "best_copy_sol": 0.39,
+          "lower_bound_sol": -5.13
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "own_rank": 36,
+      "address": "EqEdxrpkb2X85xzhMgbMSQeomzTo4La9N1KvJfvCRafk",
+      "class": "winner",
+      "why": "took out 11816.84 SOL more than it put in (1.14x) over 2705 coin-weeks (2576 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 11816.836417,
+      "put_in": 83157.375541,
+      "took_out": 94974.211958,
+      "coins": 2576,
+      "first_seen": "2026-03-27T15:42:09Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 12.8,
+        "median_hold_s": 18122,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0.04
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 260,
+          "closed": 251,
+          "open": 9,
+          "net_closed_sol": -1.67,
+          "win_share": 0.143,
+          "median_return": 0.722,
+          "best_copy_sol": 0.82,
+          "lower_bound_sol": -4.24
+        },
+        "delay_3": {
+          "copies": 260,
+          "closed": 251,
+          "open": 9,
+          "net_closed_sol": -1.51,
+          "win_share": 0.131,
+          "median_return": 0.723,
+          "best_copy_sol": 0.82,
+          "lower_bound_sol": -4.12
+        },
+        "delay_8": {
+          "copies": 260,
+          "closed": 251,
+          "open": 9,
+          "net_closed_sol": -1.68,
+          "win_share": 0.131,
+          "median_return": 0.722,
+          "best_copy_sol": 0.81,
+          "lower_bound_sol": -4.2
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "own_rank": 43,
+      "address": "7AFxLU4fvvJRXD3Qhg6i44EZSkjBX449p7rx5zDwmTo6",
+      "class": "winner",
+      "why": "took out 9803.81 SOL more than it put in (1.48x) over 5218 coin-weeks (5214 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 9803.806115,
+      "put_in": 20339.348813,
+      "took_out": 30143.154927,
+      "coins": 5214,
+      "first_seen": "2025-05-04T17:12:47Z",
+      "recent": {
+        "days_active": 5,
+        "trades_per_day": 4.4,
+        "median_hold_s": 698,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 62,
+          "closed": 62,
+          "open": 0,
+          "net_closed_sol": 0.25,
+          "win_share": 0.29,
+          "median_return": 0.671,
+          "best_copy_sol": 2.03,
+          "lower_bound_sol": -3.25
+        },
+        "delay_3": {
+          "copies": 62,
+          "closed": 62,
+          "open": 0,
+          "net_closed_sol": 0.28,
+          "win_share": 0.29,
+          "median_return": 0.661,
+          "best_copy_sol": 2.03,
+          "lower_bound_sol": -3.23
+        },
+        "delay_8": {
+          "copies": 62,
+          "closed": 62,
+          "open": 0,
+          "net_closed_sol": 0.38,
+          "win_share": 0.29,
+          "median_return": 0.723,
+          "best_copy_sol": 2.09,
+          "lower_bound_sol": -3.22
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "own_rank": 46,
+      "address": "A6N4g2sc7Skh5a7CSkh7oRctkpmjrrSqpXTymSEFvyr2",
+      "class": "winner",
+      "why": "took out 9391.96 SOL more than it put in (1.45x) over 5443 coin-weeks (5438 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 9391.964858,
+      "put_in": 20952.471602,
+      "took_out": 30344.43646,
+      "coins": 5438,
+      "first_seen": "2025-05-04T04:27:48Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 10.1,
+        "median_hold_s": 532,
+        "fast_share": 0.056,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 141,
+          "closed": 141,
+          "open": 0,
+          "net_closed_sol": -1.09,
+          "win_share": 0.298,
+          "median_return": 0.536,
+          "best_copy_sol": 1.74,
+          "lower_bound_sol": -4.64
+        },
+        "delay_3": {
+          "copies": 141,
+          "closed": 141,
+          "open": 0,
+          "net_closed_sol": -1.02,
+          "win_share": 0.284,
+          "median_return": 0.435,
+          "best_copy_sol": 1.78,
+          "lower_bound_sol": -4.69
+        },
+        "delay_8": {
+          "copies": 141,
+          "closed": 141,
+          "open": 0,
+          "net_closed_sol": -1.18,
+          "win_share": 0.277,
+          "median_return": 0.407,
+          "best_copy_sol": 1.78,
+          "lower_bound_sol": -4.85
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "own_rank": 55,
+      "address": "6YzCvqXYkWvcGmdNSKakpxmwuonSUUFcRTso9TaLnEYp",
+      "class": "winner",
+      "why": "took out 8321.43 SOL more than it put in (1.11x) over 583 coin-weeks (561 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 8321.428154,
+      "put_in": 76443.767166,
+      "took_out": 84765.19532,
+      "coins": 561,
+      "first_seen": "2026-08-18T09:41:00Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 9.3,
+        "median_hold_s": 15937,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0.039
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 151,
+          "closed": 147,
+          "open": 4,
+          "net_closed_sol": -2.11,
+          "win_share": 0.102,
+          "median_return": 0.729,
+          "best_copy_sol": 0.35,
+          "lower_bound_sol": -3.4
+        },
+        "delay_3": {
+          "copies": 151,
+          "closed": 147,
+          "open": 4,
+          "net_closed_sol": -2.03,
+          "win_share": 0.095,
+          "median_return": 0.732,
+          "best_copy_sol": 0.31,
+          "lower_bound_sol": -3.31
+        },
+        "delay_8": {
+          "copies": 151,
+          "closed": 147,
+          "open": 4,
+          "net_closed_sol": -1.98,
+          "win_share": 0.082,
+          "median_return": 0.732,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": -3.25
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "own_rank": 87,
+      "address": "BUEyvkiKDTrVt3Uv129HK5Yjba2iQ5fFPJTRNZaEkuHf",
+      "class": "winner",
+      "why": "took out 6476.59 SOL more than it put in (1.29x) over 1048 coin-weeks (1006 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 6476.589695,
+      "put_in": 22044.940749,
+      "took_out": 28521.530445,
+      "coins": 1006,
+      "first_seen": "2026-06-22T22:03:35Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 11,
+        "median_hold_s": 3586,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0.05
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 174,
+          "closed": 168,
+          "open": 6,
+          "net_closed_sol": -0.76,
+          "win_share": 0.149,
+          "median_return": 0.739,
+          "best_copy_sol": 0.77,
+          "lower_bound_sol": -2.95
+        },
+        "delay_3": {
+          "copies": 174,
+          "closed": 168,
+          "open": 6,
+          "net_closed_sol": -0.56,
+          "win_share": 0.137,
+          "median_return": 0.743,
+          "best_copy_sol": 0.76,
+          "lower_bound_sol": -2.79
+        },
+        "delay_8": {
+          "copies": 174,
+          "closed": 168,
+          "open": 6,
+          "net_closed_sol": -0.71,
+          "win_share": 0.131,
+          "median_return": 0.743,
+          "best_copy_sol": 0.76,
+          "lower_bound_sol": -2.86
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "own_rank": 100,
+      "address": "9A4h17UgLGaVws6T1mBxzH5gkG35CUSrTfNgNK5Uj4Rp",
+      "class": "winner",
+      "why": "took out 6101.27 SOL more than it put in (1.35x) over 10299 coin-weeks (10234 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 6101.270444,
+      "put_in": 17302.809285,
+      "took_out": 23404.079729,
+      "coins": 10234,
+      "first_seen": "2024-06-30T14:33:13Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 8,
+        "median_hold_s": 186,
+        "fast_share": 0.25,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 22,
+          "closed": 22,
+          "open": 0,
+          "net_closed_sol": -0.26,
+          "win_share": 0.227,
+          "median_return": 0.867,
+          "best_copy_sol": 0.1,
+          "lower_bound_sol": -0.6
+        },
+        "delay_3": {
+          "copies": 22,
+          "closed": 22,
+          "open": 0,
+          "net_closed_sol": -0.25,
+          "win_share": 0.227,
+          "median_return": 0.867,
+          "best_copy_sol": 0.1,
+          "lower_bound_sol": -0.6
+        },
+        "delay_8": {
+          "copies": 22,
+          "closed": 22,
+          "open": 0,
+          "net_closed_sol": -0.29,
+          "win_share": 0.273,
+          "median_return": 0.875,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.62
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "own_rank": 124,
+      "address": "5vg7he5HibvsAW86wfiuP6jw7VwKmUAnP6P93mVCdpJu",
+      "class": "winner",
+      "why": "took out 5388.92 SOL more than it put in (1.24x) over 6536 coin-weeks (6434 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 5388.918262,
+      "put_in": 22659.541034,
+      "took_out": 28048.459295,
+      "coins": 6434,
+      "first_seen": "2025-04-30T07:14:50Z",
+      "recent": {
+        "days_active": 9,
+        "trades_per_day": 12.7,
+        "median_hold_s": 194,
+        "fast_share": 0.079,
+        "snipe_share": 0,
+        "flip_share": 0.036
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 379,
+          "closed": 377,
+          "open": 2,
+          "net_closed_sol": -3.03,
+          "win_share": 0.271,
+          "median_return": 0.767,
+          "best_copy_sol": 1.04,
+          "lower_bound_sol": -5.55
+        },
+        "delay_3": {
+          "copies": 379,
+          "closed": 377,
+          "open": 2,
+          "net_closed_sol": -3.55,
+          "win_share": 0.252,
+          "median_return": 0.764,
+          "best_copy_sol": 0.86,
+          "lower_bound_sol": -5.87
+        },
+        "delay_8": {
+          "copies": 379,
+          "closed": 377,
+          "open": 2,
+          "net_closed_sol": -3.97,
+          "win_share": 0.255,
+          "median_return": 0.751,
+          "best_copy_sol": 0.87,
+          "lower_bound_sol": -6.34
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "own_rank": 125,
+      "address": "2p2mgFLmzN82sShZeAaBGmj9zFpam4xu8g4g3wqx2ks6",
+      "class": "winner",
+      "why": "took out 5345.61 SOL more than it put in (1.19x) over 10260 coin-weeks (10109 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 5345.610313,
+      "put_in": 28336.863846,
+      "took_out": 33682.474159,
+      "coins": 10109,
+      "first_seen": "2025-02-22T15:07:38Z",
+      "recent": {
+        "days_active": 8,
+        "trades_per_day": 6.4,
+        "median_hold_s": 756,
+        "fast_share": 0.216,
+        "snipe_share": 0,
+        "flip_share": 0.033
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 144,
+          "closed": 143,
+          "open": 1,
+          "net_closed_sol": -5.98,
+          "win_share": 0.077,
+          "median_return": 0.465,
+          "best_copy_sol": 0.44,
+          "lower_bound_sol": -7.24
+        },
+        "delay_3": {
+          "copies": 144,
+          "closed": 143,
+          "open": 1,
+          "net_closed_sol": -6.07,
+          "win_share": 0.07,
+          "median_return": 0.517,
+          "best_copy_sol": 0.44,
+          "lower_bound_sol": -7.3
+        },
+        "delay_8": {
+          "copies": 144,
+          "closed": 143,
+          "open": 1,
+          "net_closed_sol": -6.05,
+          "win_share": 0.077,
+          "median_return": 0.5,
+          "best_copy_sol": 0.43,
+          "lower_bound_sol": -7.28
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "own_rank": 144,
+      "address": "CQhVHgnvzE7UzJTQoyMimu8S7fkygFgmyeTaHxpCNy7P",
+      "class": "winner",
+      "why": "took out 4957.3 SOL more than it put in (1.35x) over 430 coin-weeks (410 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 4957.29515,
+      "put_in": 14030.393505,
+      "took_out": 18987.688655,
+      "coins": 410,
+      "first_seen": "2026-08-17T11:25:29Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 2.7,
+        "median_hold_s": 276,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 42,
+          "closed": 42,
+          "open": 0,
+          "net_closed_sol": -0.97,
+          "win_share": 0.167,
+          "median_return": 0.743,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -1.22
+        },
+        "delay_3": {
+          "copies": 42,
+          "closed": 42,
+          "open": 0,
+          "net_closed_sol": -1.03,
+          "win_share": 0.143,
+          "median_return": 0.738,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": -1.27
+        },
+        "delay_8": {
+          "copies": 42,
+          "closed": 42,
+          "open": 0,
+          "net_closed_sol": -1.08,
+          "win_share": 0.119,
+          "median_return": 0.738,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": -1.31
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "own_rank": 152,
+      "address": "FCmJpX6WjVfeUf2chQdjdJcEpb5v6aXt6xpreGeo7cqp",
+      "class": "winner",
+      "why": "took out 4679.27 SOL more than it put in (1.09x) over 1566 coin-weeks (1493 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 4679.268535,
+      "put_in": 54613.215148,
+      "took_out": 59292.483683,
+      "coins": 1493,
+      "first_seen": "2025-02-11T15:21:58Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 10,
+        "median_hold_s": 1055,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 45,
+          "closed": 43,
+          "open": 2,
+          "net_closed_sol": -1.24,
+          "win_share": 0.209,
+          "median_return": 0.715,
+          "best_copy_sol": 0.11,
+          "lower_bound_sol": -1.7
+        },
+        "delay_3": {
+          "copies": 45,
+          "closed": 43,
+          "open": 2,
+          "net_closed_sol": -1.26,
+          "win_share": 0.209,
+          "median_return": 0.685,
+          "best_copy_sol": 0.11,
+          "lower_bound_sol": -1.71
+        },
+        "delay_8": {
+          "copies": 45,
+          "closed": 43,
+          "open": 2,
+          "net_closed_sol": -1.28,
+          "win_share": 0.209,
+          "median_return": 0.697,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.73
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "own_rank": 155,
+      "address": "iPUp3qkm39ycMGbywWFMUyvaDhiiPGXeWXaDtmHNe6C",
+      "class": "winner",
+      "why": "took out 4643.81 SOL more than it put in (1.28x) over 2748 coin-weeks (2594 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 4643.808473,
+      "put_in": 16418.545862,
+      "took_out": 21062.354334,
+      "coins": 2594,
+      "first_seen": "2025-08-09T19:01:53Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 8,
+        "median_hold_s": 2283,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 6,
+          "closed": 6,
+          "open": 0,
+          "net_closed_sol": -0.18,
+          "win_share": 0,
+          "median_return": 0.677,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.22
+        },
+        "delay_3": {
+          "copies": 6,
+          "closed": 6,
+          "open": 0,
+          "net_closed_sol": -0.17,
+          "win_share": 0,
+          "median_return": 0.702,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.21
+        },
+        "delay_8": {
+          "copies": 6,
+          "closed": 6,
+          "open": 0,
+          "net_closed_sol": -0.17,
+          "win_share": 0,
+          "median_return": 0.683,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.22
+        }
+      }
+    },
+    {
+      "rank": 13,
+      "own_rank": 201,
+      "address": "9dJKzPJQVoSLQ3ujdzUpUw3o2Ef2kTJLTgbLWnCMMD3i",
+      "class": "winner",
+      "why": "took out 3962.93 SOL more than it put in (1.30x) over 4654 coin-weeks (4486 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3962.927826,
+      "put_in": 13138.152603,
+      "took_out": 17101.080429,
+      "coins": 4486,
+      "first_seen": "2025-12-08T22:02:57Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 6.5,
+        "median_hold_s": 760,
+        "fast_share": 0.215,
+        "snipe_share": 0,
+        "flip_share": 0.071
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 47,
+          "closed": 36,
+          "open": 11,
+          "net_closed_sol": -0.56,
+          "win_share": 0.222,
+          "median_return": 0.708,
+          "best_copy_sol": 0.31,
+          "lower_bound_sol": -1.37
+        },
+        "delay_3": {
+          "copies": 47,
+          "closed": 36,
+          "open": 11,
+          "net_closed_sol": -0.55,
+          "win_share": 0.25,
+          "median_return": 0.73,
+          "best_copy_sol": 0.29,
+          "lower_bound_sol": -1.35
+        },
+        "delay_8": {
+          "copies": 47,
+          "closed": 36,
+          "open": 11,
+          "net_closed_sol": -0.62,
+          "win_share": 0.25,
+          "median_return": 0.677,
+          "best_copy_sol": 0.3,
+          "lower_bound_sol": -1.4
+        }
+      }
+    },
+    {
+      "rank": 14,
+      "own_rank": 202,
+      "address": "HPg7D2urG2B4z2BwKkS8z5HEwRRDKbtmYnAE31oCWzjL",
+      "class": "winner",
+      "why": "took out 3951.1 SOL more than it put in (1.12x) over 6223 coin-weeks (6061 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3951.096875,
+      "put_in": 33191.205283,
+      "took_out": 37142.302158,
+      "coins": 6061,
+      "first_seen": "2025-02-03T17:44:26Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 17.7,
+        "median_hold_s": 149,
+        "fast_share": 0.277,
+        "snipe_share": 0,
+        "flip_share": 0.179
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 205,
+          "closed": 205,
+          "open": 0,
+          "net_closed_sol": -2.75,
+          "win_share": 0.215,
+          "median_return": 0.735,
+          "best_copy_sol": 0.48,
+          "lower_bound_sol": -4.25
+        },
+        "delay_3": {
+          "copies": 205,
+          "closed": 205,
+          "open": 0,
+          "net_closed_sol": -3.84,
+          "win_share": 0.215,
+          "median_return": 0.726,
+          "best_copy_sol": 0.17,
+          "lower_bound_sol": -4.86
+        },
+        "delay_8": {
+          "copies": 205,
+          "closed": 205,
+          "open": 0,
+          "net_closed_sol": -3.98,
+          "win_share": 0.21,
+          "median_return": 0.727,
+          "best_copy_sol": 0.16,
+          "lower_bound_sol": -4.94
+        }
+      }
+    },
+    {
+      "rank": 15,
+      "own_rank": 233,
+      "address": "A8H8D8WegN7MgMdRAVYWU2uAcSTfZaC3c6pyLDF8CFXv",
+      "class": "winner",
+      "why": "took out 3606.22 SOL more than it put in (1.17x) over 6262 coin-weeks (6155 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3606.223307,
+      "put_in": 21708.827347,
+      "took_out": 25315.050654,
+      "coins": 6155,
+      "first_seen": "2025-06-07T23:19:49Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 5,
+        "median_hold_s": 34392,
+        "fast_share": 0.4,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 3,
+          "closed": 3,
+          "open": 0,
+          "net_closed_sol": -0.22,
+          "win_share": 0,
+          "median_return": 0.124,
+          "best_copy_sol": -0.04,
+          "lower_bound_sol": -0.3
+        },
+        "delay_3": {
+          "copies": 3,
+          "closed": 3,
+          "open": 0,
+          "net_closed_sol": -0.22,
+          "win_share": 0,
+          "median_return": 0.112,
+          "best_copy_sol": -0.04,
+          "lower_bound_sol": -0.3
+        },
+        "delay_8": {
+          "copies": 3,
+          "closed": 3,
+          "open": 0,
+          "net_closed_sol": -0.23,
+          "win_share": 0,
+          "median_return": 0.104,
+          "best_copy_sol": -0.04,
+          "lower_bound_sol": -0.3
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "own_rank": 237,
+      "address": "BwrUsUUMoFFpYY4pf3eXLwxi3foecucjBH3Gzn1693Qb",
+      "class": "winner",
+      "why": "took out 3583.97 SOL more than it put in (1.29x) over 6884 coin-weeks (6802 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3583.971062,
+      "put_in": 12449.800413,
+      "took_out": 16033.771475,
+      "coins": 6802,
+      "first_seen": "2025-03-14T10:09:00Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 4,
+        "median_hold_s": 264,
+        "fast_share": 0.071,
+        "snipe_share": 0,
+        "flip_share": 0.067
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 76,
+          "closed": 75,
+          "open": 1,
+          "net_closed_sol": -1.17,
+          "win_share": 0.093,
+          "median_return": 0.745,
+          "best_copy_sol": 0.4,
+          "lower_bound_sol": -2.1
+        },
+        "delay_3": {
+          "copies": 76,
+          "closed": 75,
+          "open": 1,
+          "net_closed_sol": -1.2,
+          "win_share": 0.093,
+          "median_return": 0.766,
+          "best_copy_sol": 0.4,
+          "lower_bound_sol": -2.11
+        },
+        "delay_8": {
+          "copies": 76,
+          "closed": 75,
+          "open": 1,
+          "net_closed_sol": -1.11,
+          "win_share": 0.12,
+          "median_return": 0.784,
+          "best_copy_sol": 0.4,
+          "lower_bound_sol": -2
+        }
+      }
+    },
+    {
+      "rank": 17,
+      "own_rank": 241,
+      "address": "BJLTsAEbQcX4Tapd4upfjebrByhmnCX1WgEs3xbrWUyA",
+      "class": "winner",
+      "why": "took out 3565.03 SOL more than it put in (1.43x) over 272 coin-weeks (235 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3565.031626,
+      "put_in": 8207.168655,
+      "took_out": 11772.200281,
+      "coins": 235,
+      "first_seen": "2026-07-26T21:15:03Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 4.3,
+        "median_hold_s": 33732,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 14,
+          "closed": 14,
+          "open": 0,
+          "net_closed_sol": -1.39,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.09,
+          "lower_bound_sol": -1.4
+        },
+        "delay_3": {
+          "copies": 14,
+          "closed": 14,
+          "open": 0,
+          "net_closed_sol": -1.39,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.09,
+          "lower_bound_sol": -1.4
+        },
+        "delay_8": {
+          "copies": 14,
+          "closed": 14,
+          "open": 0,
+          "net_closed_sol": -1.39,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.09,
+          "lower_bound_sol": -1.4
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "own_rank": 257,
+      "address": "FK5z4HVnGCLbMNATcAVm81551Ng6NZU6uRFezzMKdF3k",
+      "class": "winner",
+      "why": "took out 3356.05 SOL more than it put in (1.30x) over 6107 coin-weeks (6028 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3356.045097,
+      "put_in": 11292.271795,
+      "took_out": 14648.316892,
+      "coins": 6028,
+      "first_seen": "2025-05-16T20:53:12Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 4,
+        "median_hold_s": 264,
+        "fast_share": 0.071,
+        "snipe_share": 0,
+        "flip_share": 0.067
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 60,
+          "closed": 59,
+          "open": 1,
+          "net_closed_sol": -0.55,
+          "win_share": 0.169,
+          "median_return": 0.724,
+          "best_copy_sol": 0.4,
+          "lower_bound_sol": -1.56
+        },
+        "delay_3": {
+          "copies": 60,
+          "closed": 59,
+          "open": 1,
+          "net_closed_sol": -0.62,
+          "win_share": 0.153,
+          "median_return": 0.735,
+          "best_copy_sol": 0.39,
+          "lower_bound_sol": -1.6
+        },
+        "delay_8": {
+          "copies": 60,
+          "closed": 59,
+          "open": 1,
+          "net_closed_sol": -0.56,
+          "win_share": 0.186,
+          "median_return": 0.705,
+          "best_copy_sol": 0.38,
+          "lower_bound_sol": -1.51
+        }
+      }
+    },
+    {
+      "rank": 19,
+      "own_rank": 259,
+      "address": "5d3jQcuUvsuHyZkhdp78FFqc7WogrzZpTtec1X9VNkuE",
+      "class": "winner",
+      "why": "took out 3330.92 SOL more than it put in (1.25x) over 4164 coin-weeks (4113 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3330.920161,
+      "put_in": 13582.639213,
+      "took_out": 16913.559374,
+      "coins": 4113,
+      "first_seen": "2024-11-29T21:47:14Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 2,
+        "median_hold_s": 495,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 19,
+          "closed": 19,
+          "open": 0,
+          "net_closed_sol": 0.6,
+          "win_share": 0.368,
+          "median_return": 0.74,
+          "best_copy_sol": 0.42,
+          "lower_bound_sol": -0.38
+        },
+        "delay_3": {
+          "copies": 19,
+          "closed": 19,
+          "open": 0,
+          "net_closed_sol": 0.51,
+          "win_share": 0.421,
+          "median_return": 0.825,
+          "best_copy_sol": 0.34,
+          "lower_bound_sol": -0.41
+        },
+        "delay_8": {
+          "copies": 19,
+          "closed": 19,
+          "open": 0,
+          "net_closed_sol": 0.39,
+          "win_share": 0.368,
+          "median_return": 0.883,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": -0.44
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "own_rank": 278,
+      "address": "EFmDSnRbFCHkUz3z9vVMahma725xe8zXoT1ru7ymwAgz",
+      "class": "winner",
+      "why": "took out 3182.06 SOL more than it put in (1.15x) over 3718 coin-weeks (3050 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3182.056394,
+      "put_in": 20734.398972,
+      "took_out": 23916.455366,
+      "coins": 3050,
+      "first_seen": "2025-03-17T20:29:32Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 14.7,
+        "median_hold_s": 61545,
+        "fast_share": 0.02,
+        "snipe_share": 0,
+        "flip_share": 0.1
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 200,
+          "closed": 187,
+          "open": 13,
+          "net_closed_sol": -4.77,
+          "win_share": 0.139,
+          "median_return": 0.603,
+          "best_copy_sol": 0.64,
+          "lower_bound_sol": -6.45
+        },
+        "delay_3": {
+          "copies": 200,
+          "closed": 187,
+          "open": 13,
+          "net_closed_sol": -4.96,
+          "win_share": 0.144,
+          "median_return": 0.598,
+          "best_copy_sol": 0.57,
+          "lower_bound_sol": -6.56
+        },
+        "delay_8": {
+          "copies": 200,
+          "closed": 187,
+          "open": 13,
+          "net_closed_sol": -5.07,
+          "win_share": 0.15,
+          "median_return": 0.592,
+          "best_copy_sol": 0.55,
+          "lower_bound_sol": -6.66
+        }
+      }
+    },
+    {
+      "rank": 21,
+      "own_rank": 300,
+      "address": "BprdjjAzFLoS2gVJqUVR1pdJpwCacNK4kctLTiMmcdSh",
+      "class": "winner",
+      "why": "took out 3031.28 SOL more than it put in (1.20x) over 8818 coin-weeks (7990 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 3031.27751,
+      "put_in": 15052.858563,
+      "took_out": 18084.136073,
+      "coins": 7990,
+      "first_seen": "2026-02-12T18:11:08Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 19.5,
+        "median_hold_s": 143,
+        "fast_share": 0.103,
+        "snipe_share": 0,
+        "flip_share": 0.119
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 291,
+          "closed": 267,
+          "open": 24,
+          "net_closed_sol": -3.8,
+          "win_share": 0.109,
+          "median_return": 0.589,
+          "best_copy_sol": 1.13,
+          "lower_bound_sol": -7.24
+        },
+        "delay_3": {
+          "copies": 291,
+          "closed": 267,
+          "open": 24,
+          "net_closed_sol": -3.94,
+          "win_share": 0.112,
+          "median_return": 0.571,
+          "best_copy_sol": 1.13,
+          "lower_bound_sol": -7.42
+        },
+        "delay_8": {
+          "copies": 291,
+          "closed": 267,
+          "open": 24,
+          "net_closed_sol": -4.81,
+          "win_share": 0.131,
+          "median_return": 0.526,
+          "best_copy_sol": 1.01,
+          "lower_bound_sol": -8
+        }
+      }
+    },
+    {
+      "rank": 22,
+      "own_rank": 311,
+      "address": "2Xjizmu5FwVX36JyVGcWMDaNoQN1VWU25tz1TFk24nd7",
+      "class": "winner",
+      "why": "took out 2977.36 SOL more than it put in (1.20x) over 8815 coin-weeks (7988 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2977.35626,
+      "put_in": 15115.990507,
+      "took_out": 18093.346767,
+      "coins": 7988,
+      "first_seen": "2026-02-12T18:11:08Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 19.7,
+        "median_hold_s": 143,
+        "fast_share": 0.107,
+        "snipe_share": 0,
+        "flip_share": 0.119
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 291,
+          "closed": 267,
+          "open": 24,
+          "net_closed_sol": -4.99,
+          "win_share": 0.105,
+          "median_return": 0.589,
+          "best_copy_sol": 1.04,
+          "lower_bound_sol": -8.1
+        },
+        "delay_3": {
+          "copies": 291,
+          "closed": 267,
+          "open": 24,
+          "net_closed_sol": -5.22,
+          "win_share": 0.109,
+          "median_return": 0.571,
+          "best_copy_sol": 1,
+          "lower_bound_sol": -8.3
+        },
+        "delay_8": {
+          "copies": 291,
+          "closed": 267,
+          "open": 24,
+          "net_closed_sol": -5.46,
+          "win_share": 0.127,
+          "median_return": 0.526,
+          "best_copy_sol": 0.96,
+          "lower_bound_sol": -8.52
+        }
+      }
+    },
+    {
+      "rank": 23,
+      "own_rank": 312,
+      "address": "MobS6L5HhVJtxpeafDgREsweWFh53xFoUeP9pgbaDSf",
+      "class": "winner",
+      "why": "took out 2968.01 SOL more than it put in (1.17x) over 12624 coin-weeks (10510 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2968.011721,
+      "put_in": 17934.070782,
+      "took_out": 20902.082503,
+      "coins": 10510,
+      "first_seen": "2025-06-26T00:22:47Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 18,
+        "median_hold_s": 128324,
+        "fast_share": 0.01,
+        "snipe_share": 0,
+        "flip_share": 0.063
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 320,
+          "closed": 264,
+          "open": 56,
+          "net_closed_sol": -0.93,
+          "win_share": 0.087,
+          "median_return": 0.545,
+          "best_copy_sol": 2.08,
+          "lower_bound_sol": -8
+        },
+        "delay_3": {
+          "copies": 320,
+          "closed": 264,
+          "open": 56,
+          "net_closed_sol": -1.44,
+          "win_share": 0.08,
+          "median_return": 0.541,
+          "best_copy_sol": 1.99,
+          "lower_bound_sol": -8.38
+        },
+        "delay_8": {
+          "copies": 320,
+          "closed": 264,
+          "open": 56,
+          "net_closed_sol": -1.3,
+          "win_share": 0.076,
+          "median_return": 0.55,
+          "best_copy_sol": 1.99,
+          "lower_bound_sol": -8.26
+        }
+      }
+    },
+    {
+      "rank": 24,
+      "own_rank": 318,
+      "address": "J485YzQjuJPLYoFEYjrjxd7NAoLHTiyUU63JwK7kLxRr",
+      "class": "winner",
+      "why": "took out 2942.76 SOL more than it put in (1.12x) over 6321 coin-weeks (6102 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2942.758829,
+      "put_in": 24014.438363,
+      "took_out": 26957.197193,
+      "coins": 6102,
+      "first_seen": "2024-11-06T02:37:20Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 13.7,
+        "median_hold_s": 240,
+        "fast_share": 0.229,
+        "snipe_share": 0,
+        "flip_share": 0.179
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 117,
+          "closed": 84,
+          "open": 33,
+          "net_closed_sol": 2.53,
+          "win_share": 0.357,
+          "median_return": 0.88,
+          "best_copy_sol": 0.66,
+          "lower_bound_sol": 0.53
+        },
+        "delay_3": {
+          "copies": 117,
+          "closed": 84,
+          "open": 33,
+          "net_closed_sol": 2.59,
+          "win_share": 0.31,
+          "median_return": 0.812,
+          "best_copy_sol": 0.79,
+          "lower_bound_sol": 0.43
+        },
+        "delay_8": {
+          "copies": 117,
+          "closed": 84,
+          "open": 33,
+          "net_closed_sol": 2.4,
+          "win_share": 0.369,
+          "median_return": 0.883,
+          "best_copy_sol": 0.69,
+          "lower_bound_sol": 0.46
+        }
+      }
+    },
+    {
+      "rank": 25,
+      "own_rank": 320,
+      "address": "3YRjC25tuP7K8Pg1PQiC2xpdmgiAi8p4pGko9mgpLuFH",
+      "class": "winner",
+      "why": "took out 2929.53 SOL more than it put in (1.42x) over 163 coin-weeks (142 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2929.533037,
+      "put_in": 6988.169441,
+      "took_out": 9917.702478,
+      "coins": 142,
+      "first_seen": "2026-08-25T21:38:01Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 6.3,
+        "median_hold_s": 468,
+        "fast_share": 0.053,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 15,
+          "closed": 6,
+          "open": 9,
+          "net_closed_sol": -0.03,
+          "win_share": 0.167,
+          "median_return": 0.928,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": -0.07
+        },
+        "delay_3": {
+          "copies": 15,
+          "closed": 6,
+          "open": 9,
+          "net_closed_sol": -0.02,
+          "win_share": 0.167,
+          "median_return": 0.957,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": -0.06
+        },
+        "delay_8": {
+          "copies": 15,
+          "closed": 6,
+          "open": 9,
+          "net_closed_sol": -0.02,
+          "win_share": 0.167,
+          "median_return": 0.957,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": -0.06
+        }
+      }
+    },
+    {
+      "rank": 26,
+      "own_rank": 321,
+      "address": "Gmh3Wt423pU6GsS3FQyZjknifnAFW7g3J8HhbF2TrbZL",
+      "class": "winner",
+      "why": "took out 2922.21 SOL more than it put in (1.10x) over 7258 coin-weeks (6942 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2922.211954,
+      "put_in": 30009.533147,
+      "took_out": 32931.745101,
+      "coins": 6942,
+      "first_seen": "2024-04-05T20:36:06Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 19.4,
+        "median_hold_s": 258,
+        "fast_share": 0.284,
+        "snipe_share": 0,
+        "flip_share": 0.114
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 391,
+          "closed": 380,
+          "open": 11,
+          "net_closed_sol": -9.42,
+          "win_share": 0.174,
+          "median_return": 0.634,
+          "best_copy_sol": 0.58,
+          "lower_bound_sol": -11.32
+        },
+        "delay_3": {
+          "copies": 391,
+          "closed": 380,
+          "open": 11,
+          "net_closed_sol": -9.52,
+          "win_share": 0.171,
+          "median_return": 0.629,
+          "best_copy_sol": 0.61,
+          "lower_bound_sol": -11.41
+        },
+        "delay_8": {
+          "copies": 391,
+          "closed": 380,
+          "open": 11,
+          "net_closed_sol": -10.21,
+          "win_share": 0.203,
+          "median_return": 0.636,
+          "best_copy_sol": 0.62,
+          "lower_bound_sol": -11.99
+        }
+      }
+    },
+    {
+      "rank": 27,
+      "own_rank": 325,
+      "address": "BoyLcEmBmAb82tnrGsbkFPsyrh51CtgV1tPZ9zCt1Z5U",
+      "class": "winner",
+      "why": "took out 2884.98 SOL more than it put in (1.24x) over 329 coin-weeks (133 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2884.984026,
+      "put_in": 11937.607596,
+      "took_out": 14822.591622,
+      "coins": 133,
+      "first_seen": "2026-01-25T15:44:05Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 16.8,
+        "median_hold_s": 1792,
+        "fast_share": 0.005,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 145,
+          "closed": 139,
+          "open": 6,
+          "net_closed_sol": -0.48,
+          "win_share": 0.353,
+          "median_return": 0.973,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.84
+        },
+        "delay_3": {
+          "copies": 145,
+          "closed": 139,
+          "open": 6,
+          "net_closed_sol": -0.43,
+          "win_share": 0.374,
+          "median_return": 0.973,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.8
+        },
+        "delay_8": {
+          "copies": 145,
+          "closed": 139,
+          "open": 6,
+          "net_closed_sol": -0.42,
+          "win_share": 0.388,
+          "median_return": 0.979,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.79
+        }
+      }
+    },
+    {
+      "rank": 28,
+      "own_rank": 329,
+      "address": "54xrJ798DGwH1UA2H35QtAzKT55t8pL8bjBs9Arz3eoP",
+      "class": "winner",
+      "why": "took out 2869.63 SOL more than it put in (1.04x) over 28909 coin-weeks (27815 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2869.633822,
+      "put_in": 71650.936394,
+      "took_out": 74520.570216,
+      "coins": 27815,
+      "first_seen": "2025-04-18T14:34:57Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 17.3,
+        "median_hold_s": 134,
+        "fast_share": 0.125,
+        "snipe_share": 0,
+        "flip_share": 0.104
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 440,
+          "closed": 429,
+          "open": 11,
+          "net_closed_sol": -7.85,
+          "win_share": 0.166,
+          "median_return": 0.711,
+          "best_copy_sol": 0.3,
+          "lower_bound_sol": -9.79
+        },
+        "delay_3": {
+          "copies": 440,
+          "closed": 429,
+          "open": 11,
+          "net_closed_sol": -8.06,
+          "win_share": 0.154,
+          "median_return": 0.701,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": -10.01
+        },
+        "delay_8": {
+          "copies": 440,
+          "closed": 429,
+          "open": 11,
+          "net_closed_sol": -8.59,
+          "win_share": 0.159,
+          "median_return": 0.676,
+          "best_copy_sol": 0.28,
+          "lower_bound_sol": -10.45
+        }
+      }
+    },
+    {
+      "rank": 29,
+      "own_rank": 339,
+      "address": "i5t7PczfEQWvsnpMa5bSiSQLFGz8u6CRmcmPWtQ4RRN",
+      "class": "winner",
+      "why": "took out 2823.69 SOL more than it put in (1.29x) over 809 coin-weeks (677 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2823.685429,
+      "put_in": 9712.679969,
+      "took_out": 12536.365399,
+      "coins": 677,
+      "first_seen": "2026-03-27T18:12:17Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 3.5,
+        "median_hold_s": 272,
+        "fast_share": 0.143,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 42,
+          "closed": 22,
+          "open": 20,
+          "net_closed_sol": -0.57,
+          "win_share": 0.182,
+          "median_return": 0.785,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.75
+        },
+        "delay_3": {
+          "copies": 42,
+          "closed": 22,
+          "open": 20,
+          "net_closed_sol": -0.57,
+          "win_share": 0.182,
+          "median_return": 0.786,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.76
+        },
+        "delay_8": {
+          "copies": 42,
+          "closed": 22,
+          "open": 20,
+          "net_closed_sol": -0.55,
+          "win_share": 0.182,
+          "median_return": 0.776,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.74
+        }
+      }
+    },
+    {
+      "rank": 30,
+      "own_rank": 362,
+      "address": "49LsvaMuS4mbaKRDTr7hWfaFzUR9DRXhegDhLCTDqkdg",
+      "class": "winner",
+      "why": "took out 2683.19 SOL more than it put in (1.27x) over 3658 coin-weeks (3278 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2683.191011,
+      "put_in": 9890.982286,
+      "took_out": 12574.173297,
+      "coins": 3278,
+      "first_seen": "2025-05-13T18:29:24Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 5,
+        "median_hold_s": 3223,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 5,
+          "closed": 2,
+          "open": 3,
+          "net_closed_sol": 0.02,
+          "win_share": 1,
+          "median_return": 1.078,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": 0
+        },
+        "delay_3": {
+          "copies": 5,
+          "closed": 2,
+          "open": 3,
+          "net_closed_sol": -0.04,
+          "win_share": 0,
+          "median_return": 0.811,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.08
+        },
+        "delay_8": {
+          "copies": 5,
+          "closed": 2,
+          "open": 3,
+          "net_closed_sol": -0.04,
+          "win_share": 0,
+          "median_return": 0.788,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.09
+        }
+      }
+    },
+    {
+      "rank": 31,
+      "own_rank": 368,
+      "address": "12PPVhB8jC9pq5bfcbf9VZcptmXuvsAFyeH8VK7L93zq",
+      "class": "winner",
+      "why": "took out 2644.75 SOL more than it put in (1.16x) over 12521 coin-weeks (10463 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2644.750836,
+      "put_in": 16089.627174,
+      "took_out": 18734.37801,
+      "coins": 10463,
+      "first_seen": "2025-06-26T01:26:55Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 16.6,
+        "median_hold_s": 80436,
+        "fast_share": 0.016,
+        "snipe_share": 0,
+        "flip_share": 0.07
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 292,
+          "closed": 243,
+          "open": 49,
+          "net_closed_sol": -1.65,
+          "win_share": 0.115,
+          "median_return": 0.567,
+          "best_copy_sol": 1.08,
+          "lower_bound_sol": -5.89
+        },
+        "delay_3": {
+          "copies": 292,
+          "closed": 243,
+          "open": 49,
+          "net_closed_sol": -2.16,
+          "win_share": 0.111,
+          "median_return": 0.558,
+          "best_copy_sol": 0.99,
+          "lower_bound_sol": -6.24
+        },
+        "delay_8": {
+          "copies": 292,
+          "closed": 243,
+          "open": 49,
+          "net_closed_sol": -2.27,
+          "win_share": 0.107,
+          "median_return": 0.571,
+          "best_copy_sol": 0.99,
+          "lower_bound_sol": -6.28
+        }
+      }
+    },
+    {
+      "rank": 32,
+      "own_rank": 374,
+      "address": "AosepN8EQoch2n3tv3UJ8n2ENy1sFqAikHWXKK4Mcjwr",
+      "class": "winner",
+      "why": "took out 2620.69 SOL more than it put in (1.45x) over 264 coin-weeks (257 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2620.685257,
+      "put_in": 5836.118338,
+      "took_out": 8456.803595,
+      "coins": 257,
+      "first_seen": "2026-04-26T10:16:04Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 2.5,
+        "median_hold_s": 2850,
+        "fast_share": 0,
+        "snipe_share": 0.375,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 59,
+          "closed": 54,
+          "open": 5,
+          "net_closed_sol": -4.36,
+          "win_share": 0.074,
+          "median_return": 0.058,
+          "best_copy_sol": 0.04,
+          "lower_bound_sol": -4.77
+        },
+        "delay_3": {
+          "copies": 59,
+          "closed": 54,
+          "open": 5,
+          "net_closed_sol": -4.39,
+          "win_share": 0.074,
+          "median_return": 0.058,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -4.78
+        },
+        "delay_8": {
+          "copies": 59,
+          "closed": 54,
+          "open": 5,
+          "net_closed_sol": -4.41,
+          "win_share": 0.074,
+          "median_return": 0.058,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -4.8
+        }
+      }
+    },
+    {
+      "rank": 33,
+      "own_rank": 377,
+      "address": "7WpUUSnZ9BkfLv5XJ2CHVU4uuPrnxC9tH5tDP8gbSxRF",
+      "class": "winner",
+      "why": "took out 2614.1 SOL more than it put in (1.14x) over 4714 coin-weeks (4160 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2614.102514,
+      "put_in": 18362.757023,
+      "took_out": 20976.859538,
+      "coins": 4160,
+      "first_seen": "2025-10-24T23:10:53Z",
+      "recent": {
+        "days_active": 5,
+        "trades_per_day": 3.2,
+        "median_hold_s": 230,
+        "fast_share": 0.063,
+        "snipe_share": 0,
+        "flip_share": 0.167
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 10,
+          "closed": 10,
+          "open": 0,
+          "net_closed_sol": 0.12,
+          "win_share": 0.3,
+          "median_return": 0.859,
+          "best_copy_sol": 0.33,
+          "lower_bound_sol": -0.49
+        },
+        "delay_3": {
+          "copies": 10,
+          "closed": 10,
+          "open": 0,
+          "net_closed_sol": 0.11,
+          "win_share": 0.3,
+          "median_return": 0.929,
+          "best_copy_sol": 0.33,
+          "lower_bound_sol": -0.5
+        },
+        "delay_8": {
+          "copies": 10,
+          "closed": 10,
+          "open": 0,
+          "net_closed_sol": 0.06,
+          "win_share": 0.3,
+          "median_return": 0.935,
+          "best_copy_sol": 0.27,
+          "lower_bound_sol": -0.45
+        }
+      }
+    },
+    {
+      "rank": 34,
+      "own_rank": 390,
+      "address": "GnjUARqXzrCecVG6fwZ3bc322TZN435tR8Erjz4oKDM7",
+      "class": "winner",
+      "why": "took out 2563.81 SOL more than it put in (1.34x) over 212 coin-weeks (88 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2563.814368,
+      "put_in": 7619.330345,
+      "took_out": 10183.144713,
+      "coins": 88,
+      "first_seen": "2024-04-12T08:43:17Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 7.2,
+        "median_hold_s": 2377,
+        "fast_share": 0.014,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 21,
+          "closed": 14,
+          "open": 7,
+          "net_closed_sol": -0.04,
+          "win_share": 0.429,
+          "median_return": 0.939,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -0.23
+        },
+        "delay_3": {
+          "copies": 21,
+          "closed": 14,
+          "open": 7,
+          "net_closed_sol": -0.03,
+          "win_share": 0.5,
+          "median_return": 0.948,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -0.23
+        },
+        "delay_8": {
+          "copies": 21,
+          "closed": 14,
+          "open": 7,
+          "net_closed_sol": -0.03,
+          "win_share": 0.5,
+          "median_return": 0.95,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -0.23
+        }
+      }
+    },
+    {
+      "rank": 35,
+      "own_rank": 416,
+      "address": "5CH9ve1kRkQn9W8ptKsqpGHPx3aJeM2tV2cnrrsdoMbd",
+      "class": "winner",
+      "why": "took out 2458.84 SOL more than it put in (1.23x) over 538 coin-weeks (133 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2458.836872,
+      "put_in": 10903.748826,
+      "took_out": 13362.585698,
+      "coins": 133,
+      "first_seen": "2025-03-31T10:56:23Z",
+      "recent": {
+        "days_active": 5,
+        "trades_per_day": 3.2,
+        "median_hold_s": 8211,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": null
+    },
+    {
+      "rank": 36,
+      "own_rank": 419,
+      "address": "2NoNSAa4F9Srj3M6myFtKTk9VWrYqyHBMbCwwepfYmwi",
+      "class": "winner",
+      "why": "took out 2453.95 SOL more than it put in (1.38x) over 903 coin-weeks (813 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2453.953126,
+      "put_in": 6509.927329,
+      "took_out": 8963.880456,
+      "coins": 813,
+      "first_seen": "2025-05-16T16:36:20Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 3.1,
+        "median_hold_s": 3399,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 46,
+          "closed": 46,
+          "open": 0,
+          "net_closed_sol": 0.35,
+          "win_share": 0.304,
+          "median_return": 0.673,
+          "best_copy_sol": 0.46,
+          "lower_bound_sol": -0.83
+        },
+        "delay_3": {
+          "copies": 46,
+          "closed": 46,
+          "open": 0,
+          "net_closed_sol": 0.11,
+          "win_share": 0.283,
+          "median_return": 0.636,
+          "best_copy_sol": 0.36,
+          "lower_bound_sol": -0.97
+        },
+        "delay_8": {
+          "copies": 46,
+          "closed": 46,
+          "open": 0,
+          "net_closed_sol": -0.07,
+          "win_share": 0.304,
+          "median_return": 0.64,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": -1.07
+        }
+      }
+    },
+    {
+      "rank": 37,
+      "own_rank": 428,
+      "address": "HNcbJfHG2EQ82RFhHsjxrvZ7xeRUnf8A7VMrcYGZwsdE",
+      "class": "winner",
+      "why": "took out 2410.61 SOL more than it put in (1.44x) over 927 coin-weeks (923 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2410.60991,
+      "put_in": 5429.486313,
+      "took_out": 7840.096223,
+      "coins": 923,
+      "first_seen": "2025-09-02T00:28:15Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 8,
+        "median_hold_s": 260,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 33,
+          "closed": 33,
+          "open": 0,
+          "net_closed_sol": -0.85,
+          "win_share": 0.364,
+          "median_return": 0.818,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.39
+        },
+        "delay_3": {
+          "copies": 33,
+          "closed": 33,
+          "open": 0,
+          "net_closed_sol": -0.86,
+          "win_share": 0.364,
+          "median_return": 0.819,
+          "best_copy_sol": 0.1,
+          "lower_bound_sol": -1.42
+        },
+        "delay_8": {
+          "copies": 33,
+          "closed": 33,
+          "open": 0,
+          "net_closed_sol": -0.85,
+          "win_share": 0.333,
+          "median_return": 0.806,
+          "best_copy_sol": 0.15,
+          "lower_bound_sol": -1.44
+        }
+      }
+    },
+    {
+      "rank": 38,
+      "own_rank": 429,
+      "address": "3gw9qKR2CqEFSxSSuPJbRfVknHq7WSgbRhf9f9MQdjMu",
+      "class": "winner",
+      "why": "took out 2402.02 SOL more than it put in (1.04x) over 6627 coin-weeks (5653 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2402.01837,
+      "put_in": 66116.317965,
+      "took_out": 68518.336335,
+      "coins": 5653,
+      "first_seen": "2025-06-14T19:00:53Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 7.3,
+        "median_hold_s": 42068,
+        "fast_share": 0.055,
+        "snipe_share": 0,
+        "flip_share": 0.024
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 403,
+          "closed": 402,
+          "open": 1,
+          "net_closed_sol": -2.84,
+          "win_share": 0.306,
+          "median_return": 0.861,
+          "best_copy_sol": 1.39,
+          "lower_bound_sol": -5.47
+        },
+        "delay_3": {
+          "copies": 403,
+          "closed": 402,
+          "open": 1,
+          "net_closed_sol": -2.78,
+          "win_share": 0.306,
+          "median_return": 0.86,
+          "best_copy_sol": 1.44,
+          "lower_bound_sol": -5.48
+        },
+        "delay_8": {
+          "copies": 403,
+          "closed": 402,
+          "open": 1,
+          "net_closed_sol": -2.68,
+          "win_share": 0.308,
+          "median_return": 0.865,
+          "best_copy_sol": 1.5,
+          "lower_bound_sol": -5.47
+        }
+      }
+    },
+    {
+      "rank": 39,
+      "own_rank": 433,
+      "address": "4BNMaUdBjUB54SKCTjBEoiEjcF3nGP5pqj3KXV4VEnCu",
+      "class": "winner",
+      "why": "took out 2371.73 SOL more than it put in (1.25x) over 1782 coin-weeks (1779 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2371.730614,
+      "put_in": 9357.234554,
+      "took_out": 11728.965168,
+      "coins": 1779,
+      "first_seen": "2025-10-08T14:30:27Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 6,
+        "median_hold_s": 507,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 89,
+          "closed": 89,
+          "open": 0,
+          "net_closed_sol": 3.52,
+          "win_share": 0.427,
+          "median_return": 0.584,
+          "best_copy_sol": 1.14,
+          "lower_bound_sol": 0.5
+        },
+        "delay_3": {
+          "copies": 89,
+          "closed": 89,
+          "open": 0,
+          "net_closed_sol": 3.61,
+          "win_share": 0.427,
+          "median_return": 0.572,
+          "best_copy_sol": 1.17,
+          "lower_bound_sol": 0.51
+        },
+        "delay_8": {
+          "copies": 89,
+          "closed": 89,
+          "open": 0,
+          "net_closed_sol": 3.64,
+          "win_share": 0.427,
+          "median_return": 0.571,
+          "best_copy_sol": 1.1,
+          "lower_bound_sol": 0.61
+        }
+      }
+    },
+    {
+      "rank": 40,
+      "own_rank": 437,
+      "address": "4VvdcB1Bde2qCPdbxkFcy79qk3cT1nMXFoGuhfhCa7gr",
+      "class": "winner",
+      "why": "took out 2365.65 SOL more than it put in (1.07x) over 8834 coin-weeks (8268 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2365.654787,
+      "put_in": 33054.355257,
+      "took_out": 35420.010044,
+      "coins": 8268,
+      "first_seen": "2024-11-22T06:02:24Z",
+      "recent": {
+        "days_active": 8,
+        "trades_per_day": 3.3,
+        "median_hold_s": 702,
+        "fast_share": 0.077,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 62,
+          "closed": 52,
+          "open": 10,
+          "net_closed_sol": -2.28,
+          "win_share": 0.077,
+          "median_return": 0.483,
+          "best_copy_sol": 0.12,
+          "lower_bound_sol": -2.68
+        },
+        "delay_3": {
+          "copies": 62,
+          "closed": 52,
+          "open": 10,
+          "net_closed_sol": -2.4,
+          "win_share": 0.058,
+          "median_return": 0.471,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -2.75
+        },
+        "delay_8": {
+          "copies": 62,
+          "closed": 52,
+          "open": 10,
+          "net_closed_sol": -2.47,
+          "win_share": 0.038,
+          "median_return": 0.474,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -2.8
+        }
+      }
+    },
+    {
+      "rank": 41,
+      "own_rank": 446,
+      "address": "FZ7QdWcHoVSa4CLo226Ze5yVoeAr7V7MjQRSWWu7c6AJ",
+      "class": "winner",
+      "why": "took out 2324.68 SOL more than it put in (1.16x) over 201 coin-weeks (142 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2324.683536,
+      "put_in": 14486.453688,
+      "took_out": 16811.137224,
+      "coins": 142,
+      "first_seen": "2026-07-08T20:19:14Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 12.3,
+        "median_hold_s": 558,
+        "fast_share": 0.054,
+        "snipe_share": 0,
+        "flip_share": 0.036
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -0.01,
+          "win_share": 0.545,
+          "median_return": 1.003,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": -0.13
+        },
+        "delay_3": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -0.02,
+          "win_share": 0.455,
+          "median_return": 0.989,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": -0.14
+        },
+        "delay_8": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": 0,
+          "win_share": 0.545,
+          "median_return": 1.007,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -0.13
+        }
+      }
+    },
+    {
+      "rank": 42,
+      "own_rank": 454,
+      "address": "mDR91ufq4S2uSHa9E2PYL7xg4LwcQXaQFP7YK864a1z",
+      "class": "winner",
+      "why": "took out 2296.51 SOL more than it put in (1.10x) over 890 coin-weeks (523 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2296.505538,
+      "put_in": 23663.944453,
+      "took_out": 25960.449992,
+      "coins": 523,
+      "first_seen": "2025-10-28T15:15:28Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 7.3,
+        "median_hold_s": 1659,
+        "fast_share": 0.068,
+        "snipe_share": 0,
+        "flip_share": 0.087
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 81,
+          "closed": 77,
+          "open": 4,
+          "net_closed_sol": -2.12,
+          "win_share": 0.208,
+          "median_return": 0.687,
+          "best_copy_sol": 0.15,
+          "lower_bound_sol": -2.72
+        },
+        "delay_3": {
+          "copies": 81,
+          "closed": 77,
+          "open": 4,
+          "net_closed_sol": -2.19,
+          "win_share": 0.169,
+          "median_return": 0.679,
+          "best_copy_sol": 0.17,
+          "lower_bound_sol": -2.78
+        },
+        "delay_8": {
+          "copies": 81,
+          "closed": 77,
+          "open": 4,
+          "net_closed_sol": -1.99,
+          "win_share": 0.169,
+          "median_return": 0.719,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": -2.75
+        }
+      }
+    },
+    {
+      "rank": 43,
+      "own_rank": 466,
+      "address": "CMDYUcDg5mcN25i9JPboswK5sv9Z1dZ1tCcUKA9b9c2M",
+      "class": "winner",
+      "why": "took out 2260.97 SOL more than it put in (1.09x) over 787 coin-weeks (301 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2260.974004,
+      "put_in": 23821.184135,
+      "took_out": 26082.158138,
+      "coins": 301,
+      "first_seen": "2025-03-28T01:13:08Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 11.1,
+        "median_hold_s": 29097,
+        "fast_share": 0.051,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": null
+    },
+    {
+      "rank": 44,
+      "own_rank": 467,
+      "address": "33nDQT9RCkPHG2CWMXuYvbXVM12UDBtGHn7ANH7Th8h8",
+      "class": "winner",
+      "why": "took out 2259 SOL more than it put in (1.07x) over 6341 coin-weeks (5446 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2259.000685,
+      "put_in": 33973.373211,
+      "took_out": 36232.373896,
+      "coins": 5446,
+      "first_seen": "2025-05-05T15:30:48Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 14.4,
+        "median_hold_s": 182,
+        "fast_share": 0.184,
+        "snipe_share": 0,
+        "flip_share": 0.134
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 674,
+          "closed": 662,
+          "open": 12,
+          "net_closed_sol": -6.24,
+          "win_share": 0.213,
+          "median_return": 0.733,
+          "best_copy_sol": 0.65,
+          "lower_bound_sol": -9.63
+        },
+        "delay_3": {
+          "copies": 674,
+          "closed": 662,
+          "open": 12,
+          "net_closed_sol": -6.8,
+          "win_share": 0.23,
+          "median_return": 0.732,
+          "best_copy_sol": 0.67,
+          "lower_bound_sol": -10.14
+        },
+        "delay_8": {
+          "copies": 674,
+          "closed": 662,
+          "open": 12,
+          "net_closed_sol": -6.43,
+          "win_share": 0.228,
+          "median_return": 0.729,
+          "best_copy_sol": 0.63,
+          "lower_bound_sol": -9.75
+        }
+      }
+    },
+    {
+      "rank": 45,
+      "own_rank": 470,
+      "address": "3CdG3mgaumweQsUpkMgp5b5wHFgd3nJwh2aDw1ktZA5i",
+      "class": "winner",
+      "why": "took out 2255.59 SOL more than it put in (1.39x) over 114 coin-weeks (60 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2255.589857,
+      "put_in": 5760.128774,
+      "took_out": 8015.718631,
+      "coins": 60,
+      "first_seen": "2026-07-02T18:04:19Z",
+      "recent": {
+        "days_active": 5,
+        "trades_per_day": 2,
+        "median_hold_s": 103900,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 8,
+          "closed": 8,
+          "open": 0,
+          "net_closed_sol": -0.1,
+          "win_share": 0.375,
+          "median_return": 0.942,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.24
+        },
+        "delay_3": {
+          "copies": 8,
+          "closed": 8,
+          "open": 0,
+          "net_closed_sol": -0.09,
+          "win_share": 0.375,
+          "median_return": 0.947,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.24
+        },
+        "delay_8": {
+          "copies": 8,
+          "closed": 8,
+          "open": 0,
+          "net_closed_sol": -0.09,
+          "win_share": 0.375,
+          "median_return": 0.944,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.24
+        }
+      }
+    },
+    {
+      "rank": 46,
+      "own_rank": 475,
+      "address": "AyCfEN3jjkta6hMQQJ6cKuHm1Z9BhuYHdm3WmDgvjqcs",
+      "class": "winner",
+      "why": "took out 2244.38 SOL more than it put in (1.05x) over 12155 coin-weeks (12134 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2244.382033,
+      "put_in": 48004.689256,
+      "took_out": 50249.071289,
+      "coins": 12134,
+      "first_seen": "2025-04-14T11:57:22Z",
+      "recent": {
+        "days_active": 9,
+        "trades_per_day": 8.1,
+        "median_hold_s": 362,
+        "fast_share": 0.082,
+        "snipe_share": 0,
+        "flip_share": 0.026
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 83,
+          "closed": 83,
+          "open": 0,
+          "net_closed_sol": -1.86,
+          "win_share": 0.217,
+          "median_return": 0.689,
+          "best_copy_sol": 0.16,
+          "lower_bound_sol": -2.61
+        },
+        "delay_3": {
+          "copies": 83,
+          "closed": 83,
+          "open": 0,
+          "net_closed_sol": -1.89,
+          "win_share": 0.205,
+          "median_return": 0.672,
+          "best_copy_sol": 0.18,
+          "lower_bound_sol": -2.66
+        },
+        "delay_8": {
+          "copies": 83,
+          "closed": 83,
+          "open": 0,
+          "net_closed_sol": -1.91,
+          "win_share": 0.205,
+          "median_return": 0.692,
+          "best_copy_sol": 0.17,
+          "lower_bound_sol": -2.67
+        }
+      }
+    },
+    {
+      "rank": 47,
+      "own_rank": 477,
+      "address": "7MV39xCvhyZwEZvJqmDyZrTbhKwF3MKp2cJJ35sJZRLL",
+      "class": "winner",
+      "why": "took out 2239.36 SOL more than it put in (1.49x) over 772 coin-weeks (767 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2239.362427,
+      "put_in": 4537.791977,
+      "took_out": 6777.154404,
+      "coins": 767,
+      "first_seen": "2025-09-02T00:32:48Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 4,
+        "median_hold_s": 230,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 25,
+          "closed": 25,
+          "open": 0,
+          "net_closed_sol": -0.46,
+          "win_share": 0.36,
+          "median_return": 0.856,
+          "best_copy_sol": 0.07,
+          "lower_bound_sol": -0.89
+        },
+        "delay_3": {
+          "copies": 25,
+          "closed": 25,
+          "open": 0,
+          "net_closed_sol": -0.5,
+          "win_share": 0.4,
+          "median_return": 0.856,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.96
+        },
+        "delay_8": {
+          "copies": 25,
+          "closed": 25,
+          "open": 0,
+          "net_closed_sol": -0.51,
+          "win_share": 0.4,
+          "median_return": 0.852,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.98
+        }
+      }
+    },
+    {
+      "rank": 48,
+      "own_rank": 479,
+      "address": "4hvruD7YDRZL2xh5aCUrN2DoxZKCjGv9jofDXMvwGagC",
+      "class": "winner",
+      "why": "took out 2235.86 SOL more than it put in (1.18x) over 165 coin-weeks (108 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2235.860615,
+      "put_in": 12104.790263,
+      "took_out": 14340.650878,
+      "coins": 108,
+      "first_seen": "2024-10-29T18:09:36Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 2,
+        "median_hold_s": 670,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 1,
+          "closed": 1,
+          "open": 0,
+          "net_closed_sol": 0,
+          "win_share": 1,
+          "median_return": 1.015,
+          "best_copy_sol": 0,
+          "lower_bound_sol": null
+        },
+        "delay_3": {
+          "copies": 1,
+          "closed": 1,
+          "open": 0,
+          "net_closed_sol": 0,
+          "win_share": 1,
+          "median_return": 1.012,
+          "best_copy_sol": 0,
+          "lower_bound_sol": null
+        },
+        "delay_8": {
+          "copies": 1,
+          "closed": 1,
+          "open": 0,
+          "net_closed_sol": 0,
+          "win_share": 1,
+          "median_return": 1.015,
+          "best_copy_sol": 0,
+          "lower_bound_sol": null
+        }
+      }
+    },
+    {
+      "rank": 49,
+      "own_rank": 480,
+      "address": "6XBPbKT2LtwFj3qpRG3CCVyJfSnQE7SE9Ub6VQLRWUB1",
+      "class": "winner",
+      "why": "took out 2232 SOL more than it put in (1.42x) over 955 coin-weeks (949 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2232.001404,
+      "put_in": 5291.279797,
+      "took_out": 7523.281201,
+      "coins": 949,
+      "first_seen": "2025-09-02T00:23:54Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 7,
+        "median_hold_s": 262,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 33,
+          "closed": 33,
+          "open": 0,
+          "net_closed_sol": -0.92,
+          "win_share": 0.394,
+          "median_return": 0.778,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.49
+        },
+        "delay_3": {
+          "copies": 33,
+          "closed": 33,
+          "open": 0,
+          "net_closed_sol": -0.96,
+          "win_share": 0.364,
+          "median_return": 0.796,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -1.55
+        },
+        "delay_8": {
+          "copies": 33,
+          "closed": 33,
+          "open": 0,
+          "net_closed_sol": -0.89,
+          "win_share": 0.394,
+          "median_return": 0.82,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.51
+        }
+      }
+    },
+    {
+      "rank": 50,
+      "own_rank": 484,
+      "address": "8T9ychy4shZUYRu6LFjgNYDWPEQ14KEwyNXsr76fcNZy",
+      "class": "winner",
+      "why": "took out 2223.5 SOL more than it put in (1.16x) over 2603 coin-weeks (2444 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2223.498947,
+      "put_in": 13698.481958,
+      "took_out": 15921.980905,
+      "coins": 2444,
+      "first_seen": "2025-05-13T01:29:14Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 9,
+        "median_hold_s": 171,
+        "fast_share": 0,
+        "snipe_share": 0.222,
+        "flip_share": 0.167
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 37,
+          "closed": 33,
+          "open": 4,
+          "net_closed_sol": -0.57,
+          "win_share": 0.182,
+          "median_return": 0.776,
+          "best_copy_sol": 0.26,
+          "lower_bound_sol": -1.15
+        },
+        "delay_3": {
+          "copies": 37,
+          "closed": 33,
+          "open": 4,
+          "net_closed_sol": -0.55,
+          "win_share": 0.182,
+          "median_return": 0.746,
+          "best_copy_sol": 0.26,
+          "lower_bound_sol": -1.13
+        },
+        "delay_8": {
+          "copies": 37,
+          "closed": 33,
+          "open": 4,
+          "net_closed_sol": -0.6,
+          "win_share": 0.152,
+          "median_return": 0.768,
+          "best_copy_sol": 0.25,
+          "lower_bound_sol": -1.17
+        }
+      }
+    },
+    {
+      "rank": 51,
+      "own_rank": 495,
+      "address": "ByXk1FEfaaX9sf9hSwFfkuZLBRZ7S9cutZsWMRQw2TjR",
+      "class": "winner",
+      "why": "took out 2180.81 SOL more than it put in (1.10x) over 10805 coin-weeks (10729 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2180.81283,
+      "put_in": 21836.253479,
+      "took_out": 24017.066309,
+      "coins": 10729,
+      "first_seen": "2025-02-11T14:29:12Z",
+      "recent": {
+        "days_active": 8,
+        "trades_per_day": 6.3,
+        "median_hold_s": 283,
+        "fast_share": 0,
+        "snipe_share": 0.05,
+        "flip_share": 0.13
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 54,
+          "closed": 54,
+          "open": 0,
+          "net_closed_sol": -0.59,
+          "win_share": 0.13,
+          "median_return": 0.553,
+          "best_copy_sol": 0.42,
+          "lower_bound_sol": -1.96
+        },
+        "delay_3": {
+          "copies": 54,
+          "closed": 54,
+          "open": 0,
+          "net_closed_sol": -0.6,
+          "win_share": 0.13,
+          "median_return": 0.549,
+          "best_copy_sol": 0.42,
+          "lower_bound_sol": -1.98
+        },
+        "delay_8": {
+          "copies": 54,
+          "closed": 54,
+          "open": 0,
+          "net_closed_sol": -0.66,
+          "win_share": 0.13,
+          "median_return": 0.55,
+          "best_copy_sol": 0.44,
+          "lower_bound_sol": -2.01
+        }
+      }
+    },
+    {
+      "rank": 52,
+      "own_rank": 507,
+      "address": "GvTXquDAJbfrFrEGTPRPUj3WM5Bzub5yeTFzkLVHpjfD",
+      "class": "winner",
+      "why": "took out 2150.74 SOL more than it put in (1.22x) over 2408 coin-weeks (2296 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2150.738346,
+      "put_in": 9993.840943,
+      "took_out": 12144.579289,
+      "coins": 2296,
+      "first_seen": "2025-08-25T18:20:33Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 6,
+        "median_hold_s": 323,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 81,
+          "closed": 80,
+          "open": 1,
+          "net_closed_sol": -2.05,
+          "win_share": 0.113,
+          "median_return": 0.615,
+          "best_copy_sol": 0.43,
+          "lower_bound_sol": -2.98
+        },
+        "delay_3": {
+          "copies": 81,
+          "closed": 80,
+          "open": 1,
+          "net_closed_sol": -2.2,
+          "win_share": 0.113,
+          "median_return": 0.58,
+          "best_copy_sol": 0.38,
+          "lower_bound_sol": -3.08
+        },
+        "delay_8": {
+          "copies": 81,
+          "closed": 80,
+          "open": 1,
+          "net_closed_sol": -2.18,
+          "win_share": 0.113,
+          "median_return": 0.595,
+          "best_copy_sol": 0.43,
+          "lower_bound_sol": -3.12
+        }
+      }
+    },
+    {
+      "rank": 53,
+      "own_rank": 508,
+      "address": "5t9xBNuDdGTGpjaPTx6hKd7sdRJbvtKS8Mhq6qVbo8Qz",
+      "class": "winner",
+      "why": "took out 2143.75 SOL more than it put in (1.03x) over 6431 coin-weeks (6339 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2143.748293,
+      "put_in": 64710.84305,
+      "took_out": 66854.591343,
+      "coins": 6339,
+      "first_seen": "2025-03-16T01:54:34Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 16.2,
+        "median_hold_s": 774,
+        "fast_share": 0.124,
+        "snipe_share": 0.229,
+        "flip_share": 0.047
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 194,
+          "closed": 194,
+          "open": 0,
+          "net_closed_sol": -3.94,
+          "win_share": 0.196,
+          "median_return": 0.48,
+          "best_copy_sol": 0.36,
+          "lower_bound_sol": -6.05
+        },
+        "delay_3": {
+          "copies": 194,
+          "closed": 194,
+          "open": 0,
+          "net_closed_sol": -4.21,
+          "win_share": 0.191,
+          "median_return": 0.465,
+          "best_copy_sol": 0.36,
+          "lower_bound_sol": -6.3
+        },
+        "delay_8": {
+          "copies": 194,
+          "closed": 194,
+          "open": 0,
+          "net_closed_sol": -4.15,
+          "win_share": 0.196,
+          "median_return": 0.475,
+          "best_copy_sol": 0.35,
+          "lower_bound_sol": -6.22
+        }
+      }
+    },
+    {
+      "rank": 54,
+      "own_rank": 514,
+      "address": "4MNiUt5kptveg8HN2nmcmRzoVRThBFXoAtfFrbSdWvJR",
+      "class": "winner",
+      "why": "took out 2122.92 SOL more than it put in (1.11x) over 921 coin-weeks (839 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2122.923779,
+      "put_in": 19865.462742,
+      "took_out": 21988.386521,
+      "coins": 839,
+      "first_seen": "2025-12-03T22:06:53Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 5,
+        "median_hold_s": 225,
+        "fast_share": 0.2,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 111,
+          "closed": 109,
+          "open": 2,
+          "net_closed_sol": 2.61,
+          "win_share": 0.459,
+          "median_return": 0.96,
+          "best_copy_sol": 0.66,
+          "lower_bound_sol": 0.58
+        },
+        "delay_3": {
+          "copies": 111,
+          "closed": 109,
+          "open": 2,
+          "net_closed_sol": 2.34,
+          "win_share": 0.422,
+          "median_return": 0.946,
+          "best_copy_sol": 0.63,
+          "lower_bound_sol": 0.36
+        },
+        "delay_8": {
+          "copies": 111,
+          "closed": 109,
+          "open": 2,
+          "net_closed_sol": 2.01,
+          "win_share": 0.367,
+          "median_return": 0.856,
+          "best_copy_sol": 0.62,
+          "lower_bound_sol": 0.06
+        }
+      }
+    },
+    {
+      "rank": 55,
+      "own_rank": 516,
+      "address": "7SKJAkT3yEwjK16BqoxpicX97vLCJcUX2kQundVAWhku",
+      "class": "winner",
+      "why": "took out 2116.13 SOL more than it put in (1.25x) over 1901 coin-weeks (1811 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2116.133525,
+      "put_in": 8534.890171,
+      "took_out": 10651.023696,
+      "coins": 1811,
+      "first_seen": "2025-12-15T19:38:43Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 7,
+        "median_hold_s": 2153,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 4,
+          "closed": 4,
+          "open": 0,
+          "net_closed_sol": -0.09,
+          "win_share": 0,
+          "median_return": 0.775,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.14
+        },
+        "delay_3": {
+          "copies": 4,
+          "closed": 4,
+          "open": 0,
+          "net_closed_sol": -0.09,
+          "win_share": 0,
+          "median_return": 0.761,
+          "best_copy_sol": 0,
+          "lower_bound_sol": -0.14
+        },
+        "delay_8": {
+          "copies": 4,
+          "closed": 4,
+          "open": 0,
+          "net_closed_sol": -0.08,
+          "win_share": 0,
+          "median_return": 0.792,
+          "best_copy_sol": 0,
+          "lower_bound_sol": -0.13
+        }
+      }
+    },
+    {
+      "rank": 56,
+      "own_rank": 521,
+      "address": "5TwL5fHt6KqzzeiCDYEJK6s9vUauKBynVhYVvdGw7jgi",
+      "class": "winner",
+      "why": "took out 2107.41 SOL more than it put in (1.39x) over 906 coin-weeks (902 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2107.409667,
+      "put_in": 5345.251504,
+      "took_out": 7452.661171,
+      "coins": 902,
+      "first_seen": "2025-09-02T00:27:36Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 5,
+        "median_hold_s": 331,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 28,
+          "closed": 28,
+          "open": 0,
+          "net_closed_sol": -0.8,
+          "win_share": 0.321,
+          "median_return": 0.837,
+          "best_copy_sol": 0.07,
+          "lower_bound_sol": -1.28
+        },
+        "delay_3": {
+          "copies": 28,
+          "closed": 28,
+          "open": 0,
+          "net_closed_sol": -0.76,
+          "win_share": 0.321,
+          "median_return": 0.843,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -1.25
+        },
+        "delay_8": {
+          "copies": 28,
+          "closed": 28,
+          "open": 0,
+          "net_closed_sol": -0.79,
+          "win_share": 0.321,
+          "median_return": 0.859,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -1.27
+        }
+      }
+    },
+    {
+      "rank": 57,
+      "own_rank": 528,
+      "address": "8iY3JfS3MrVBaE8VfgKKfANcMmKGTdfKsnZFxAKiWdzY",
+      "class": "winner",
+      "why": "took out 2084.1 SOL more than it put in (1.37x) over 526 coin-weeks (257 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2084.100901,
+      "put_in": 5591.725285,
+      "took_out": 7675.826186,
+      "coins": 257,
+      "first_seen": "2024-11-15T13:22:32Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 1.7,
+        "median_hold_s": 52789,
+        "fast_share": 0.2,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": 0.02,
+          "win_share": 1,
+          "median_return": 1.106,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": 0.01
+        },
+        "delay_3": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": 0.02,
+          "win_share": 1,
+          "median_return": 1.106,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": 0.01
+        },
+        "delay_8": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": 0.02,
+          "win_share": 1,
+          "median_return": 1.106,
+          "best_copy_sol": 0.02,
+          "lower_bound_sol": 0.01
+        }
+      }
+    },
+    {
+      "rank": 58,
+      "own_rank": 538,
+      "address": "2w9aQdfRn1oaLGQFsomP8xsQvCHvgsetWk4Raa8SF5MT",
+      "class": "winner",
+      "why": "took out 2053.17 SOL more than it put in (1.25x) over 271 coin-weeks (235 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2053.1746,
+      "put_in": 8217.347226,
+      "took_out": 10270.521826,
+      "coins": 235,
+      "first_seen": "2026-07-26T21:15:07Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 4,
+        "median_hold_s": 32281,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 15,
+          "closed": 15,
+          "open": 0,
+          "net_closed_sol": -1.49,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.09,
+          "lower_bound_sol": -1.5
+        },
+        "delay_3": {
+          "copies": 15,
+          "closed": 15,
+          "open": 0,
+          "net_closed_sol": -1.49,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.09,
+          "lower_bound_sol": -1.5
+        },
+        "delay_8": {
+          "copies": 15,
+          "closed": 15,
+          "open": 0,
+          "net_closed_sol": -1.49,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.1,
+          "lower_bound_sol": -1.5
+        }
+      }
+    },
+    {
+      "rank": 59,
+      "own_rank": 543,
+      "address": "BopgSXVHNqks8GNMp5UJ3g54mKP1Wgfs8j6DcRNSCoBb",
+      "class": "winner",
+      "why": "took out 2041.75 SOL more than it put in (1.12x) over 6456 coin-weeks (6216 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2041.753058,
+      "put_in": 17198.181742,
+      "took_out": 19239.9348,
+      "coins": 6216,
+      "first_seen": "2025-02-09T13:49:45Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 10.3,
+        "median_hold_s": 133,
+        "fast_share": 0.042,
+        "snipe_share": 0,
+        "flip_share": 0.172
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 180,
+          "closed": 175,
+          "open": 5,
+          "net_closed_sol": 1.39,
+          "win_share": 0.309,
+          "median_return": 0.742,
+          "best_copy_sol": 0.77,
+          "lower_bound_sol": -1.28
+        },
+        "delay_3": {
+          "copies": 180,
+          "closed": 175,
+          "open": 5,
+          "net_closed_sol": 1.46,
+          "win_share": 0.297,
+          "median_return": 0.732,
+          "best_copy_sol": 0.66,
+          "lower_bound_sol": -1.13
+        },
+        "delay_8": {
+          "copies": 180,
+          "closed": 175,
+          "open": 5,
+          "net_closed_sol": 1.64,
+          "win_share": 0.331,
+          "median_return": 0.786,
+          "best_copy_sol": 0.61,
+          "lower_bound_sol": -0.91
+        }
+      }
+    },
+    {
+      "rank": 60,
+      "own_rank": 544,
+      "address": "JDF9E1Z4JmS8MEwy9ofMySMaAW2xiytRrUZCsqutMv2w",
+      "class": "winner",
+      "why": "took out 2039.22 SOL more than it put in (1.17x) over 1060 coin-weeks (591 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2039.223534,
+      "put_in": 12160.771547,
+      "took_out": 14199.995082,
+      "coins": 591,
+      "first_seen": "2025-06-18T17:01:18Z",
+      "recent": {
+        "days_active": 9,
+        "trades_per_day": 3.8,
+        "median_hold_s": 4085,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": null
+    },
+    {
+      "rank": 61,
+      "own_rank": 546,
+      "address": "C1HWvjfaA6Y33T59ULtGmrknjpmu4yaRALoL5tGF5fCS",
+      "class": "winner",
+      "why": "took out 2031.34 SOL more than it put in (1.10x) over 6467 coin-weeks (6403 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2031.339578,
+      "put_in": 20605.88766,
+      "took_out": 22637.227238,
+      "coins": 6403,
+      "first_seen": "2026-01-06T03:04:12Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 4,
+        "median_hold_s": 6069,
+        "fast_share": 0.438,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 160,
+          "closed": 156,
+          "open": 4,
+          "net_closed_sol": -3.36,
+          "win_share": 0.212,
+          "median_return": 0.853,
+          "best_copy_sol": 0.15,
+          "lower_bound_sol": -4.17
+        },
+        "delay_3": {
+          "copies": 160,
+          "closed": 156,
+          "open": 4,
+          "net_closed_sol": -3.59,
+          "win_share": 0.179,
+          "median_return": 0.843,
+          "best_copy_sol": 0.15,
+          "lower_bound_sol": -4.39
+        },
+        "delay_8": {
+          "copies": 160,
+          "closed": 156,
+          "open": 4,
+          "net_closed_sol": -3.73,
+          "win_share": 0.167,
+          "median_return": 0.843,
+          "best_copy_sol": 0.13,
+          "lower_bound_sol": -4.5
+        }
+      }
+    },
+    {
+      "rank": 62,
+      "own_rank": 554,
+      "address": "9vmPNgS1Tqpnu1MhAS8Z3JS4NBf2oMVpnzRCTNsuk37c",
+      "class": "winner",
+      "why": "took out 2008.42 SOL more than it put in (1.19x) over 288 coin-weeks (139 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 2008.420071,
+      "put_in": 10669.788595,
+      "took_out": 12678.208666,
+      "coins": 139,
+      "first_seen": "2024-07-19T17:35:03Z",
+      "recent": {
+        "days_active": 8,
+        "trades_per_day": 8.9,
+        "median_hold_s": 1514,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 54,
+          "closed": 52,
+          "open": 2,
+          "net_closed_sol": -0.81,
+          "win_share": 0.327,
+          "median_return": 0.924,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.2
+        },
+        "delay_3": {
+          "copies": 54,
+          "closed": 52,
+          "open": 2,
+          "net_closed_sol": -0.8,
+          "win_share": 0.327,
+          "median_return": 0.925,
+          "best_copy_sol": 0.1,
+          "lower_bound_sol": -1.2
+        },
+        "delay_8": {
+          "copies": 54,
+          "closed": 52,
+          "open": 2,
+          "net_closed_sol": -0.79,
+          "win_share": 0.327,
+          "median_return": 0.917,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.18
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "own_rank": 563,
+      "address": "Ajktg5ChFD827z1jVK3Yip8C3MNGB9QwR3wFaaUaHqMi",
+      "class": "winner",
+      "why": "took out 1994.08 SOL more than it put in (1.24x) over 4195 coin-weeks (4191 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1994.077389,
+      "put_in": 8427.410948,
+      "took_out": 10421.488337,
+      "coins": 4191,
+      "first_seen": "2025-05-04T08:32:37Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 3,
+        "median_hold_s": 2419,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 3,
+          "closed": 3,
+          "open": 0,
+          "net_closed_sol": 0.02,
+          "win_share": 0.333,
+          "median_return": 0.291,
+          "best_copy_sol": 0.17,
+          "lower_bound_sol": -0.37
+        },
+        "delay_3": {
+          "copies": 3,
+          "closed": 3,
+          "open": 0,
+          "net_closed_sol": 0.01,
+          "win_share": 0.333,
+          "median_return": 0.29,
+          "best_copy_sol": 0.16,
+          "lower_bound_sol": -0.37
+        },
+        "delay_8": {
+          "copies": 3,
+          "closed": 3,
+          "open": 0,
+          "net_closed_sol": 0.01,
+          "win_share": 0.333,
+          "median_return": 0.288,
+          "best_copy_sol": 0.16,
+          "lower_bound_sol": -0.37
+        }
+      }
+    },
+    {
+      "rank": 64,
+      "own_rank": 568,
+      "address": "Cv1Cu88P4EBJcRuMKDvnQybhWKEUvifjHk1TqF3Go3U3",
+      "class": "winner",
+      "why": "took out 1983.26 SOL more than it put in (1.46x) over 220 coin-weeks (220 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1983.264109,
+      "put_in": 4353.228446,
+      "took_out": 6336.492555,
+      "coins": 220,
+      "first_seen": "2026-04-30T12:11:19Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 16,
+        "median_hold_s": 171,
+        "fast_share": 0.313,
+        "snipe_share": 0,
+        "flip_share": 0.071
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 132,
+          "closed": 132,
+          "open": 0,
+          "net_closed_sol": 1.4,
+          "win_share": 0.553,
+          "median_return": 1.022,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": 0.13
+        },
+        "delay_3": {
+          "copies": 132,
+          "closed": 132,
+          "open": 0,
+          "net_closed_sol": 1.58,
+          "win_share": 0.606,
+          "median_return": 1.036,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": 0.28
+        },
+        "delay_8": {
+          "copies": 132,
+          "closed": 132,
+          "open": 0,
+          "net_closed_sol": 1.29,
+          "win_share": 0.614,
+          "median_return": 1.059,
+          "best_copy_sol": 0.3,
+          "lower_bound_sol": 0.05
+        }
+      }
+    },
+    {
+      "rank": 65,
+      "own_rank": 569,
+      "address": "8MoW9mtbEz6z3gPuAdYb1yWhjCAxQSYqpcTb1CQgN5qb",
+      "class": "winner",
+      "why": "took out 1980 SOL more than it put in (1.21x) over 3218 coin-weeks (2747 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1980.001993,
+      "put_in": 9230.37187,
+      "took_out": 11210.373864,
+      "coins": 2747,
+      "first_seen": "2025-03-10T19:24:32Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 9.4,
+        "median_hold_s": 3026,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 176,
+          "closed": 160,
+          "open": 16,
+          "net_closed_sol": 1.64,
+          "win_share": 0.2,
+          "median_return": 0.736,
+          "best_copy_sol": 2.17,
+          "lower_bound_sol": -2.6
+        },
+        "delay_3": {
+          "copies": 176,
+          "closed": 160,
+          "open": 16,
+          "net_closed_sol": 1.16,
+          "win_share": 0.2,
+          "median_return": 0.705,
+          "best_copy_sol": 1.98,
+          "lower_bound_sol": -2.82
+        },
+        "delay_8": {
+          "copies": 176,
+          "closed": 160,
+          "open": 16,
+          "net_closed_sol": 1.21,
+          "win_share": 0.188,
+          "median_return": 0.709,
+          "best_copy_sol": 2.05,
+          "lower_bound_sol": -2.87
+        }
+      }
+    },
+    {
+      "rank": 66,
+      "own_rank": 572,
+      "address": "tYGCfzdZTXEkG9rvbxUH8f8AgGmPRNDdMPkR1ERcCu8",
+      "class": "winner",
+      "why": "took out 1968.93 SOL more than it put in (1.15x) over 7518 coin-weeks (6894 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1968.930597,
+      "put_in": 13236.469545,
+      "took_out": 15205.400142,
+      "coins": 6894,
+      "first_seen": "2024-05-06T12:53:10Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 3,
+        "median_hold_s": 6245,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 4,
+          "closed": 3,
+          "open": 1,
+          "net_closed_sol": -0.06,
+          "win_share": 0,
+          "median_return": 0.815,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.09
+        },
+        "delay_3": {
+          "copies": 4,
+          "closed": 3,
+          "open": 1,
+          "net_closed_sol": -0.06,
+          "win_share": 0,
+          "median_return": 0.815,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.09
+        },
+        "delay_8": {
+          "copies": 4,
+          "closed": 3,
+          "open": 1,
+          "net_closed_sol": -0.06,
+          "win_share": 0,
+          "median_return": 0.815,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.09
+        }
+      }
+    },
+    {
+      "rank": 67,
+      "own_rank": 575,
+      "address": "3aCzCNLf1XwP9kJjh4fk9BLUtt7eAaYFpivUeccan39j",
+      "class": "winner",
+      "why": "took out 1950.05 SOL more than it put in (1.39x) over 819 coin-weeks (815 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1950.046081,
+      "put_in": 5028.800158,
+      "took_out": 6978.846238,
+      "coins": 815,
+      "first_seen": "2025-09-02T00:24:12Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 6,
+        "median_hold_s": 256,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 30,
+          "closed": 30,
+          "open": 0,
+          "net_closed_sol": -0.73,
+          "win_share": 0.367,
+          "median_return": 0.805,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.26
+        },
+        "delay_3": {
+          "copies": 30,
+          "closed": 30,
+          "open": 0,
+          "net_closed_sol": -0.79,
+          "win_share": 0.367,
+          "median_return": 0.819,
+          "best_copy_sol": 0.07,
+          "lower_bound_sol": -1.31
+        },
+        "delay_8": {
+          "copies": 30,
+          "closed": 30,
+          "open": 0,
+          "net_closed_sol": -0.77,
+          "win_share": 0.4,
+          "median_return": 0.849,
+          "best_copy_sol": 0.07,
+          "lower_bound_sol": -1.29
+        }
+      }
+    },
+    {
+      "rank": 68,
+      "own_rank": 586,
+      "address": "FDWJ7wQWKHWRCBv4172uihXiYte5McEE4izGoEcwSocT",
+      "class": "winner",
+      "why": "took out 1925.96 SOL more than it put in (1.23x) over 1768 coin-weeks (1766 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1925.964291,
+      "put_in": 8444.97798,
+      "took_out": 10370.942271,
+      "coins": 1766,
+      "first_seen": "2025-10-08T14:30:53Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 6.5,
+        "median_hold_s": 474,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 98,
+          "closed": 98,
+          "open": 0,
+          "net_closed_sol": 2.57,
+          "win_share": 0.418,
+          "median_return": 0.325,
+          "best_copy_sol": 1.11,
+          "lower_bound_sol": -0.38
+        },
+        "delay_3": {
+          "copies": 98,
+          "closed": 98,
+          "open": 0,
+          "net_closed_sol": 2.59,
+          "win_share": 0.418,
+          "median_return": 0.286,
+          "best_copy_sol": 1.14,
+          "lower_bound_sol": -0.42
+        },
+        "delay_8": {
+          "copies": 98,
+          "closed": 98,
+          "open": 0,
+          "net_closed_sol": 2.71,
+          "win_share": 0.418,
+          "median_return": 0.286,
+          "best_copy_sol": 1.18,
+          "lower_bound_sol": -0.33
+        }
+      }
+    },
+    {
+      "rank": 69,
+      "own_rank": 591,
+      "address": "J45JdaaqLniscYrf5QRLSbhumkyos5de8j5veoddeHCx",
+      "class": "winner",
+      "why": "took out 1908.17 SOL more than it put in (1.21x) over 1331 coin-weeks (1260 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1908.169103,
+      "put_in": 9227.360194,
+      "took_out": 11135.529297,
+      "coins": 1260,
+      "first_seen": "2025-09-09T17:11:00Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 2,
+        "median_hold_s": 19198,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 5,
+          "closed": 4,
+          "open": 1,
+          "net_closed_sol": -0.22,
+          "win_share": 0,
+          "median_return": 0.483,
+          "best_copy_sol": -0.05,
+          "lower_bound_sol": -0.24
+        },
+        "delay_3": {
+          "copies": 5,
+          "closed": 4,
+          "open": 1,
+          "net_closed_sol": -0.22,
+          "win_share": 0,
+          "median_return": 0.476,
+          "best_copy_sol": -0.05,
+          "lower_bound_sol": -0.24
+        },
+        "delay_8": {
+          "copies": 5,
+          "closed": 4,
+          "open": 1,
+          "net_closed_sol": -0.22,
+          "win_share": 0,
+          "median_return": 0.488,
+          "best_copy_sol": -0.05,
+          "lower_bound_sol": -0.24
+        }
+      }
+    },
+    {
+      "rank": 70,
+      "own_rank": 592,
+      "address": "EDajBBK71iW7jeVjfsmiGeneraPEsq2YrPgeAQkiLd6R",
+      "class": "winner",
+      "why": "took out 1903.78 SOL more than it put in (1.06x) over 13012 coin-weeks (12872 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1903.781076,
+      "put_in": 31012.241028,
+      "took_out": 32916.022105,
+      "coins": 12872,
+      "first_seen": "2024-11-14T03:06:10Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 7.3,
+        "median_hold_s": 6267,
+        "fast_share": 0.136,
+        "snipe_share": 0,
+        "flip_share": 0.111
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 245,
+          "closed": 238,
+          "open": 7,
+          "net_closed_sol": -3.59,
+          "win_share": 0.244,
+          "median_return": 0.813,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": -4.85
+        },
+        "delay_3": {
+          "copies": 245,
+          "closed": 238,
+          "open": 7,
+          "net_closed_sol": -3.61,
+          "win_share": 0.235,
+          "median_return": 0.813,
+          "best_copy_sol": 0.31,
+          "lower_bound_sol": -4.84
+        },
+        "delay_8": {
+          "copies": 245,
+          "closed": 238,
+          "open": 7,
+          "net_closed_sol": -3.69,
+          "win_share": 0.223,
+          "median_return": 0.798,
+          "best_copy_sol": 0.32,
+          "lower_bound_sol": -4.96
+        }
+      }
+    },
+    {
+      "rank": 71,
+      "own_rank": 599,
+      "address": "J865X6P4QDE7xp5JmkuPhyeRHZqddnVKR9pZiAJtZEAm",
+      "class": "winner",
+      "why": "took out 1895.06 SOL more than it put in (1.07x) over 8857 coin-weeks (8493 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1895.060059,
+      "put_in": 25369.823859,
+      "took_out": 27264.883919,
+      "coins": 8493,
+      "first_seen": "2024-04-28T21:04:58Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 10.5,
+        "median_hold_s": 296,
+        "fast_share": 0.333,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 34,
+          "closed": 28,
+          "open": 6,
+          "net_closed_sol": -0.72,
+          "win_share": 0.143,
+          "median_return": 0.632,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -1.04
+        },
+        "delay_3": {
+          "copies": 34,
+          "closed": 28,
+          "open": 6,
+          "net_closed_sol": -0.72,
+          "win_share": 0.143,
+          "median_return": 0.633,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -1.05
+        },
+        "delay_8": {
+          "copies": 34,
+          "closed": 28,
+          "open": 6,
+          "net_closed_sol": -0.69,
+          "win_share": 0.143,
+          "median_return": 0.646,
+          "best_copy_sol": 0.13,
+          "lower_bound_sol": -1.11
+        }
+      }
+    },
+    {
+      "rank": 72,
+      "own_rank": 603,
+      "address": "6EDaVsS6enYgJ81tmhEkiKFcb4HuzPUVFZeom6PHUqN3",
+      "class": "winner",
+      "why": "took out 1884.98 SOL more than it put in (1.08x) over 6028 coin-weeks (5064 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1884.984573,
+      "put_in": 22937.24186,
+      "took_out": 24822.226433,
+      "coins": 5064,
+      "first_seen": "2024-12-09T06:49:16Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 1,
+        "median_hold_s": 168584,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 4,
+          "closed": 4,
+          "open": 0,
+          "net_closed_sol": -0.09,
+          "win_share": 0,
+          "median_return": 0.88,
+          "best_copy_sol": -0.01,
+          "lower_bound_sol": -0.16
+        },
+        "delay_3": {
+          "copies": 4,
+          "closed": 4,
+          "open": 0,
+          "net_closed_sol": -0.08,
+          "win_share": 0.25,
+          "median_return": 0.815,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.18
+        },
+        "delay_8": {
+          "copies": 4,
+          "closed": 4,
+          "open": 0,
+          "net_closed_sol": -0.08,
+          "win_share": 0.25,
+          "median_return": 0.827,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.17
+        }
+      }
+    },
+    {
+      "rank": 73,
+      "own_rank": 629,
+      "address": "BdpYHJy6tvvQF2yaSiyA1DYJSVdsiQnV8TNX7ruk5AJM",
+      "class": "winner",
+      "why": "took out 1832.68 SOL more than it put in (1.08x) over 12930 coin-weeks (12883 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1832.684278,
+      "put_in": 23171.465498,
+      "took_out": 25004.149776,
+      "coins": 12883,
+      "first_seen": "2025-02-09T18:08:19Z",
+      "recent": {
+        "days_active": 9,
+        "trades_per_day": 8.9,
+        "median_hold_s": 876,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 110,
+          "closed": 110,
+          "open": 0,
+          "net_closed_sol": -0.92,
+          "win_share": 0.391,
+          "median_return": 0.683,
+          "best_copy_sol": 0.18,
+          "lower_bound_sol": -2.03
+        },
+        "delay_3": {
+          "copies": 110,
+          "closed": 110,
+          "open": 0,
+          "net_closed_sol": -1.08,
+          "win_share": 0.382,
+          "median_return": 0.652,
+          "best_copy_sol": 0.18,
+          "lower_bound_sol": -2.19
+        },
+        "delay_8": {
+          "copies": 110,
+          "closed": 110,
+          "open": 0,
+          "net_closed_sol": -0.91,
+          "win_share": 0.4,
+          "median_return": 0.681,
+          "best_copy_sol": 0.2,
+          "lower_bound_sol": -2.05
+        }
+      }
+    },
+    {
+      "rank": 74,
+      "own_rank": 638,
+      "address": "6JJdhkhk2fsxJcv5f2pEfrkMfHDe6bJSWT6JF2pUXGAK",
+      "class": "winner",
+      "why": "took out 1810.64 SOL more than it put in (1.17x) over 385 coin-weeks (282 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1810.640788,
+      "put_in": 10622.530314,
+      "took_out": 12433.171102,
+      "coins": 282,
+      "first_seen": "2025-01-02T12:55:50Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 4,
+        "median_hold_s": 854,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": -0.01,
+          "win_share": 0.5,
+          "median_return": 0.973,
+          "best_copy_sol": 0,
+          "lower_bound_sol": -0.02
+        },
+        "delay_3": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": -0.01,
+          "win_share": 0.5,
+          "median_return": 0.973,
+          "best_copy_sol": 0,
+          "lower_bound_sol": -0.02
+        },
+        "delay_8": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": 0,
+          "win_share": 0.5,
+          "median_return": 0.984,
+          "best_copy_sol": 0,
+          "lower_bound_sol": -0.02
+        }
+      }
+    },
+    {
+      "rank": 75,
+      "own_rank": 643,
+      "address": "CF6RGQHx9V71sUnkN6TYeTXb8AHHhg3tT8cqf8mThPnM",
+      "class": "winner",
+      "why": "took out 1792.42 SOL more than it put in (1.17x) over 1080 coin-weeks (602 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1792.419843,
+      "put_in": 10268.386451,
+      "took_out": 12060.806295,
+      "coins": 602,
+      "first_seen": "2025-05-15T13:04:20Z",
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 5.3,
+        "median_hold_s": 5399,
+        "fast_share": 0.027,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 30,
+          "closed": 29,
+          "open": 1,
+          "net_closed_sol": -0.36,
+          "win_share": 0.276,
+          "median_return": 0.915,
+          "best_copy_sol": 0.04,
+          "lower_bound_sol": -0.55
+        },
+        "delay_3": {
+          "copies": 30,
+          "closed": 29,
+          "open": 1,
+          "net_closed_sol": -0.36,
+          "win_share": 0.276,
+          "median_return": 0.915,
+          "best_copy_sol": 0.04,
+          "lower_bound_sol": -0.55
+        },
+        "delay_8": {
+          "copies": 30,
+          "closed": 29,
+          "open": 1,
+          "net_closed_sol": -0.35,
+          "win_share": 0.276,
+          "median_return": 0.915,
+          "best_copy_sol": 0.04,
+          "lower_bound_sol": -0.55
+        }
+      }
+    },
+    {
+      "rank": 76,
+      "own_rank": 651,
+      "address": "BCooHwwMNrB4R9RLybTp5bBfwUnamG4VKtGLpwW88eKk",
+      "class": "winner",
+      "why": "took out 1780.51 SOL more than it put in (1.14x) over 9133 coin-weeks (8364 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1780.509178,
+      "put_in": 12647.63749,
+      "took_out": 14428.146667,
+      "coins": 8364,
+      "first_seen": "2025-03-22T22:41:03Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 17.7,
+        "median_hold_s": 36611,
+        "fast_share": 0.051,
+        "snipe_share": 0,
+        "flip_share": 0.014
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 281,
+          "closed": 275,
+          "open": 6,
+          "net_closed_sol": -6.27,
+          "win_share": 0.087,
+          "median_return": 0.664,
+          "best_copy_sol": 0.42,
+          "lower_bound_sol": -7.66
+        },
+        "delay_3": {
+          "copies": 281,
+          "closed": 274,
+          "open": 7,
+          "net_closed_sol": -6.41,
+          "win_share": 0.088,
+          "median_return": 0.658,
+          "best_copy_sol": 0.4,
+          "lower_bound_sol": -7.83
+        },
+        "delay_8": {
+          "copies": 281,
+          "closed": 274,
+          "open": 7,
+          "net_closed_sol": -6.17,
+          "win_share": 0.08,
+          "median_return": 0.669,
+          "best_copy_sol": 0.42,
+          "lower_bound_sol": -7.59
+        }
+      }
+    },
+    {
+      "rank": 77,
+      "own_rank": 656,
+      "address": "XjsgzZkt4k1Z5S1wq4y6oNH7iqCZ68mabV8E2cu2fgt",
+      "class": "winner",
+      "why": "took out 1769.81 SOL more than it put in (1.10x) over 5746 coin-weeks (5389 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1769.809827,
+      "put_in": 17186.321333,
+      "took_out": 18956.131161,
+      "coins": 5389,
+      "first_seen": "2026-01-08T18:24:17Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 5,
+        "median_hold_s": 20944,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 214,
+          "closed": 212,
+          "open": 2,
+          "net_closed_sol": 0.56,
+          "win_share": 0.278,
+          "median_return": 0.871,
+          "best_copy_sol": 0.77,
+          "lower_bound_sol": -1.95
+        },
+        "delay_3": {
+          "copies": 214,
+          "closed": 211,
+          "open": 3,
+          "net_closed_sol": 0.61,
+          "win_share": 0.256,
+          "median_return": 0.877,
+          "best_copy_sol": 0.66,
+          "lower_bound_sol": -1.81
+        },
+        "delay_8": {
+          "copies": 214,
+          "closed": 211,
+          "open": 3,
+          "net_closed_sol": 0.88,
+          "win_share": 0.284,
+          "median_return": 0.896,
+          "best_copy_sol": 0.61,
+          "lower_bound_sol": -1.53
+        }
+      }
+    },
+    {
+      "rank": 78,
+      "own_rank": 657,
+      "address": "8TGPZxspVeLFebAvqYBsTomubJyMWDHbNVsqVZfm1H9u",
+      "class": "winner",
+      "why": "took out 1766.42 SOL more than it put in (1.14x) over 2321 coin-weeks (2069 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1766.416848,
+      "put_in": 12972.339029,
+      "took_out": 14738.755876,
+      "coins": 2069,
+      "first_seen": "2025-12-27T21:07:17Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 7.8,
+        "median_hold_s": 190,
+        "fast_share": 0.452,
+        "snipe_share": 0,
+        "flip_share": 0.111
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 27,
+          "closed": 23,
+          "open": 4,
+          "net_closed_sol": 0.3,
+          "win_share": 0.348,
+          "median_return": 0.846,
+          "best_copy_sol": 0.28,
+          "lower_bound_sol": -0.41
+        },
+        "delay_3": {
+          "copies": 27,
+          "closed": 23,
+          "open": 4,
+          "net_closed_sol": 0.28,
+          "win_share": 0.348,
+          "median_return": 0.849,
+          "best_copy_sol": 0.28,
+          "lower_bound_sol": -0.42
+        },
+        "delay_8": {
+          "copies": 27,
+          "closed": 23,
+          "open": 4,
+          "net_closed_sol": 0.23,
+          "win_share": 0.304,
+          "median_return": 0.847,
+          "best_copy_sol": 0.27,
+          "lower_bound_sol": -0.45
+        }
+      }
+    },
+    {
+      "rank": 79,
+      "own_rank": 659,
+      "address": "3xBmQQijfUghKXmnvjUKFEwrobxV2gmz2mYvFPoLoG4C",
+      "class": "winner",
+      "why": "took out 1764 SOL more than it put in (1.14x) over 1165 coin-weeks (375 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1764.001872,
+      "put_in": 12991.613863,
+      "took_out": 14755.615735,
+      "coins": 375,
+      "first_seen": "2025-06-24T05:50:48Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 12.8,
+        "median_hold_s": 4841,
+        "fast_share": 0.064,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 40,
+          "closed": 39,
+          "open": 1,
+          "net_closed_sol": -0.04,
+          "win_share": 0.538,
+          "median_return": 1.009,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -0.18
+        },
+        "delay_3": {
+          "copies": 40,
+          "closed": 39,
+          "open": 1,
+          "net_closed_sol": -0.04,
+          "win_share": 0.538,
+          "median_return": 1.015,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -0.18
+        },
+        "delay_8": {
+          "copies": 40,
+          "closed": 39,
+          "open": 1,
+          "net_closed_sol": -0.03,
+          "win_share": 0.564,
+          "median_return": 1.02,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -0.18
+        }
+      }
+    },
+    {
+      "rank": 80,
+      "own_rank": 668,
+      "address": "5HCR1tbsSWh5zbHeaJLQKfdUVmE3S5y337KHkgYRbdXq",
+      "class": "winner",
+      "why": "took out 1749.47 SOL more than it put in (1.29x) over 1402 coin-weeks (1339 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1749.466728,
+      "put_in": 5980.960547,
+      "took_out": 7730.427275,
+      "coins": 1339,
+      "first_seen": "2025-08-26T07:02:54Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 7.8,
+        "median_hold_s": 152,
+        "fast_share": 0.038,
+        "snipe_share": 0,
+        "flip_share": 0.04
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 52,
+          "closed": 48,
+          "open": 4,
+          "net_closed_sol": -0.69,
+          "win_share": 0.375,
+          "median_return": 0.825,
+          "best_copy_sol": 0.06,
+          "lower_bound_sol": -1.08
+        },
+        "delay_3": {
+          "copies": 52,
+          "closed": 48,
+          "open": 4,
+          "net_closed_sol": -0.74,
+          "win_share": 0.375,
+          "median_return": 0.803,
+          "best_copy_sol": 0.05,
+          "lower_bound_sol": -1.12
+        },
+        "delay_8": {
+          "copies": 52,
+          "closed": 48,
+          "open": 4,
+          "net_closed_sol": -0.75,
+          "win_share": 0.375,
+          "median_return": 0.801,
+          "best_copy_sol": 0.05,
+          "lower_bound_sol": -1.14
+        }
+      }
+    },
+    {
+      "rank": 81,
+      "own_rank": 678,
+      "address": "Hd7LuFb8vPF4FUex2TZ9c9BG4YvB2ZHoGucJHX8CAB9H",
+      "class": "winner",
+      "why": "took out 1717.99 SOL more than it put in (1.18x) over 1381 coin-weeks (955 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1717.988297,
+      "put_in": 9536.813092,
+      "took_out": 11254.801388,
+      "coins": 955,
+      "first_seen": "2025-02-13T04:42:28Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 7.2,
+        "median_hold_s": 22148,
+        "fast_share": 0.014,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 115,
+          "closed": 114,
+          "open": 1,
+          "net_closed_sol": -1.42,
+          "win_share": 0.377,
+          "median_return": 0.809,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -2.21
+        },
+        "delay_3": {
+          "copies": 115,
+          "closed": 114,
+          "open": 1,
+          "net_closed_sol": -1.43,
+          "win_share": 0.377,
+          "median_return": 0.806,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -2.22
+        },
+        "delay_8": {
+          "copies": 115,
+          "closed": 114,
+          "open": 1,
+          "net_closed_sol": -1.43,
+          "win_share": 0.377,
+          "median_return": 0.806,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -2.22
+        }
+      }
+    },
+    {
+      "rank": 82,
+      "own_rank": 679,
+      "address": "9v9Xsxxu2pi4cDkTHtyL1Rg417uga48R2VcCP4L1Pe9R",
+      "class": "winner",
+      "why": "took out 1716.02 SOL more than it put in (1.07x) over 14413 coin-weeks (14265 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1716.018205,
+      "put_in": 23504.386437,
+      "took_out": 25220.404643,
+      "coins": 14265,
+      "first_seen": "2024-04-24T22:48:13Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 2,
+        "median_hold_s": 382,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 269,
+          "closed": 267,
+          "open": 2,
+          "net_closed_sol": -3.25,
+          "win_share": 0.139,
+          "median_return": 0.788,
+          "best_copy_sol": 0.59,
+          "lower_bound_sol": -4.78
+        },
+        "delay_3": {
+          "copies": 269,
+          "closed": 265,
+          "open": 4,
+          "net_closed_sol": -3.38,
+          "win_share": 0.14,
+          "median_return": 0.786,
+          "best_copy_sol": 0.62,
+          "lower_bound_sol": -4.92
+        },
+        "delay_8": {
+          "copies": 269,
+          "closed": 265,
+          "open": 4,
+          "net_closed_sol": -3.58,
+          "win_share": 0.14,
+          "median_return": 0.784,
+          "best_copy_sol": 0.68,
+          "lower_bound_sol": -5.17
+        }
+      }
+    },
+    {
+      "rank": 83,
+      "own_rank": 688,
+      "address": "Bz34iJQodZF3NDXumZrJWuQwhnrLzkTM3gHVftZsCH2j",
+      "class": "winner",
+      "why": "took out 1687.32 SOL more than it put in (1.48x) over 574 coin-weeks (535 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1687.320799,
+      "put_in": 3479.894474,
+      "took_out": 5167.215272,
+      "coins": 535,
+      "first_seen": "2024-05-27T05:38:26Z",
+      "recent": {
+        "days_active": 6,
+        "trades_per_day": 10.8,
+        "median_hold_s": 458,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 34,
+          "closed": 34,
+          "open": 0,
+          "net_closed_sol": 0.01,
+          "win_share": 0.294,
+          "median_return": 0.916,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.34
+        },
+        "delay_3": {
+          "copies": 34,
+          "closed": 34,
+          "open": 0,
+          "net_closed_sol": 0.05,
+          "win_share": 0.353,
+          "median_return": 0.926,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.3
+        },
+        "delay_8": {
+          "copies": 34,
+          "closed": 34,
+          "open": 0,
+          "net_closed_sol": 0.06,
+          "win_share": 0.353,
+          "median_return": 0.926,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.3
+        }
+      }
+    },
+    {
+      "rank": 84,
+      "own_rank": 691,
+      "address": "9RGjjbRdxyErozMgTzgtF2Y3fdduHNQSHT5ZbmW1jLAK",
+      "class": "winner",
+      "why": "took out 1681.6 SOL more than it put in (1.20x) over 1806 coin-weeks (1804 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1681.596634,
+      "put_in": 8465.963603,
+      "took_out": 10147.560237,
+      "coins": 1804,
+      "first_seen": "2025-10-08T14:33:03Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 6.8,
+        "median_hold_s": 363,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 91,
+          "closed": 91,
+          "open": 0,
+          "net_closed_sol": 1.83,
+          "win_share": 0.418,
+          "median_return": 0.334,
+          "best_copy_sol": 1.23,
+          "lower_bound_sol": -1.06
+        },
+        "delay_3": {
+          "copies": 91,
+          "closed": 91,
+          "open": 0,
+          "net_closed_sol": 1.79,
+          "win_share": 0.429,
+          "median_return": 0.333,
+          "best_copy_sol": 1.15,
+          "lower_bound_sol": -1.01
+        },
+        "delay_8": {
+          "copies": 91,
+          "closed": 91,
+          "open": 0,
+          "net_closed_sol": 2.09,
+          "win_share": 0.429,
+          "median_return": 0.316,
+          "best_copy_sol": 1.12,
+          "lower_bound_sol": -0.72
+        }
+      }
+    },
+    {
+      "rank": 85,
+      "own_rank": 692,
+      "address": "8toebpEzfWERZFWKqrnZoeEz1V6KXnmFtkcxne6fnJQ7",
+      "class": "winner",
+      "why": "took out 1681.15 SOL more than it put in (1.21x) over 408 coin-weeks (390 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1681.152061,
+      "put_in": 7842.75016,
+      "took_out": 9523.90222,
+      "coins": 390,
+      "first_seen": "2026-04-03T16:23:05Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 3.3,
+        "median_hold_s": 18126,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 15,
+          "closed": 15,
+          "open": 0,
+          "net_closed_sol": -0.28,
+          "win_share": 0.333,
+          "median_return": 0.692,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -0.7
+        },
+        "delay_3": {
+          "copies": 15,
+          "closed": 15,
+          "open": 0,
+          "net_closed_sol": -0.29,
+          "win_share": 0.333,
+          "median_return": 0.709,
+          "best_copy_sol": 0.09,
+          "lower_bound_sol": -0.71
+        },
+        "delay_8": {
+          "copies": 15,
+          "closed": 15,
+          "open": 0,
+          "net_closed_sol": -0.29,
+          "win_share": 0.333,
+          "median_return": 0.668,
+          "best_copy_sol": 0.1,
+          "lower_bound_sol": -0.71
+        }
+      }
+    },
+    {
+      "rank": 86,
+      "own_rank": 696,
+      "address": "5ecxH9qwq2vE13wT7Y4Cethe2Wv6tLNESMQLnTCeg5ky",
+      "class": "winner",
+      "why": "took out 1677.18 SOL more than it put in (1.06x) over 23986 coin-weeks (23848 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1677.180619,
+      "put_in": 28586.793499,
+      "took_out": 30263.974119,
+      "coins": 23848,
+      "first_seen": "2024-12-23T21:11:12Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 4.6,
+        "median_hold_s": 123,
+        "fast_share": 0.02,
+        "snipe_share": 0,
+        "flip_share": 0.095
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 76,
+          "closed": 61,
+          "open": 15,
+          "net_closed_sol": -0.01,
+          "win_share": 0.246,
+          "median_return": 0.88,
+          "best_copy_sol": 0.19,
+          "lower_bound_sol": -0.6
+        },
+        "delay_3": {
+          "copies": 76,
+          "closed": 61,
+          "open": 15,
+          "net_closed_sol": -0.03,
+          "win_share": 0.23,
+          "median_return": 0.877,
+          "best_copy_sol": 0.19,
+          "lower_bound_sol": -0.64
+        },
+        "delay_8": {
+          "copies": 76,
+          "closed": 61,
+          "open": 15,
+          "net_closed_sol": -0.08,
+          "win_share": 0.23,
+          "median_return": 0.872,
+          "best_copy_sol": 0.19,
+          "lower_bound_sol": -0.71
+        }
+      }
+    },
+    {
+      "rank": 87,
+      "own_rank": 697,
+      "address": "7BbYhLfW74zRHuxBKW2thtFspuWHYfXBuCqjHvGqpwp2",
+      "class": "winner",
+      "why": "took out 1674.38 SOL more than it put in (1.29x) over 1975 coin-weeks (1813 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1674.376148,
+      "put_in": 5751.640323,
+      "took_out": 7426.016472,
+      "coins": 1813,
+      "first_seen": "2025-04-12T23:08:27Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 1.5,
+        "median_hold_s": 210076,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 14,
+          "closed": 9,
+          "open": 5,
+          "net_closed_sol": 2.89,
+          "win_share": 0.667,
+          "median_return": 1.191,
+          "best_copy_sol": 0.86,
+          "lower_bound_sol": 0.94
+        },
+        "delay_3": {
+          "copies": 14,
+          "closed": 9,
+          "open": 5,
+          "net_closed_sol": 2.86,
+          "win_share": 0.778,
+          "median_return": 1.186,
+          "best_copy_sol": 0.87,
+          "lower_bound_sol": 0.9
+        },
+        "delay_8": {
+          "copies": 14,
+          "closed": 9,
+          "open": 5,
+          "net_closed_sol": 2.66,
+          "win_share": 0.667,
+          "median_return": 1.193,
+          "best_copy_sol": 0.87,
+          "lower_bound_sol": 0.79
+        }
+      }
+    },
+    {
+      "rank": 88,
+      "own_rank": 703,
+      "address": "21cutQKXw6opqwAcUfVVSDFbjKjs9NA94cUTfYBy4SZ6",
+      "class": "winner",
+      "why": "took out 1650.81 SOL more than it put in (1.08x) over 9139 coin-weeks (8845 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1650.808628,
+      "put_in": 19565.538429,
+      "took_out": 21216.347056,
+      "coins": 8845,
+      "first_seen": "2025-03-31T06:45:59Z",
+      "recent": {
+        "days_active": 8,
+        "trades_per_day": 15.1,
+        "median_hold_s": 162,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0.088
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 266,
+          "closed": 257,
+          "open": 9,
+          "net_closed_sol": -2.92,
+          "win_share": 0.195,
+          "median_return": 0.813,
+          "best_copy_sol": 0.25,
+          "lower_bound_sol": -4.04
+        },
+        "delay_3": {
+          "copies": 266,
+          "closed": 257,
+          "open": 9,
+          "net_closed_sol": -3.12,
+          "win_share": 0.187,
+          "median_return": 0.811,
+          "best_copy_sol": 0.25,
+          "lower_bound_sol": -4.23
+        },
+        "delay_8": {
+          "copies": 266,
+          "closed": 257,
+          "open": 9,
+          "net_closed_sol": -2.84,
+          "win_share": 0.183,
+          "median_return": 0.814,
+          "best_copy_sol": 0.25,
+          "lower_bound_sol": -3.95
+        }
+      }
+    },
+    {
+      "rank": 89,
+      "own_rank": 715,
+      "address": "9ogeCJhwdQ3hLbhSqTterv5nWeetnu9Z2LxjWuN6krhq",
+      "class": "winner",
+      "why": "took out 1626.31 SOL more than it put in (1.04x) over 10406 coin-weeks (10231 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1626.305517,
+      "put_in": 41746.60598,
+      "took_out": 43372.911497,
+      "coins": 10231,
+      "first_seen": "2025-05-12T08:29:00Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 2,
+        "median_hold_s": 5515,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 25,
+          "closed": 25,
+          "open": 0,
+          "net_closed_sol": -0.81,
+          "win_share": 0.16,
+          "median_return": 0.675,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -1.08
+        },
+        "delay_3": {
+          "copies": 25,
+          "closed": 25,
+          "open": 0,
+          "net_closed_sol": -0.86,
+          "win_share": 0.08,
+          "median_return": 0.724,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -1.12
+        },
+        "delay_8": {
+          "copies": 25,
+          "closed": 25,
+          "open": 0,
+          "net_closed_sol": -0.86,
+          "win_share": 0.08,
+          "median_return": 0.665,
+          "best_copy_sol": 0.03,
+          "lower_bound_sol": -1.12
+        }
+      }
+    },
+    {
+      "rank": 90,
+      "own_rank": 720,
+      "address": "55scSVyCZ23B6tRhocrt9xX4N3nTFSWvdjbbypwH9mkf",
+      "class": "winner",
+      "why": "took out 1607.71 SOL more than it put in (1.42x) over 2390 coin-weeks (2154 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1607.711985,
+      "put_in": 3843.555937,
+      "took_out": 5451.267922,
+      "coins": 2154,
+      "first_seen": "2025-08-20T00:09:10Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 2,
+        "median_hold_s": 130,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 29,
+          "closed": 29,
+          "open": 0,
+          "net_closed_sol": -0.09,
+          "win_share": 0.31,
+          "median_return": 0.87,
+          "best_copy_sol": 0.4,
+          "lower_bound_sol": -0.98
+        },
+        "delay_3": {
+          "copies": 29,
+          "closed": 29,
+          "open": 0,
+          "net_closed_sol": -0.1,
+          "win_share": 0.31,
+          "median_return": 0.88,
+          "best_copy_sol": 0.41,
+          "lower_bound_sol": -1.01
+        },
+        "delay_8": {
+          "copies": 29,
+          "closed": 29,
+          "open": 0,
+          "net_closed_sol": -0.09,
+          "win_share": 0.31,
+          "median_return": 0.783,
+          "best_copy_sol": 0.36,
+          "lower_bound_sol": -1
+        }
+      }
+    },
+    {
+      "rank": 91,
+      "own_rank": 724,
+      "address": "Hgqc79Kz4QoMBo6jrtvds22Hki98hAx4Rvj5oHRUbKZD",
+      "class": "winner",
+      "why": "took out 1600.69 SOL more than it put in (1.15x) over 1309 coin-weeks (1273 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1600.693087,
+      "put_in": 10697.768591,
+      "took_out": 12298.461677,
+      "coins": 1273,
+      "first_seen": "2025-07-25T23:17:34Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 2,
+        "median_hold_s": 235,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": -0.04,
+          "win_share": 0,
+          "median_return": 0.799,
+          "best_copy_sol": -0.02,
+          "lower_bound_sol": -0.05
+        },
+        "delay_3": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": -0.04,
+          "win_share": 0,
+          "median_return": 0.807,
+          "best_copy_sol": -0.02,
+          "lower_bound_sol": -0.04
+        },
+        "delay_8": {
+          "copies": 2,
+          "closed": 2,
+          "open": 0,
+          "net_closed_sol": -0.04,
+          "win_share": 0,
+          "median_return": 0.812,
+          "best_copy_sol": -0.02,
+          "lower_bound_sol": -0.04
+        }
+      }
+    },
+    {
+      "rank": 92,
+      "own_rank": 725,
+      "address": "CQervCdE3WAUGRmaTj9NHdbNrNGVsxJb68t3QggcntM2",
+      "class": "winner",
+      "why": "took out 1600.46 SOL more than it put in (1.10x) over 9058 coin-weeks (8948 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1600.458516,
+      "put_in": 16261.097073,
+      "took_out": 17861.555589,
+      "coins": 8948,
+      "first_seen": "2025-03-14T09:34:00Z",
+      "recent": {
+        "days_active": 9,
+        "trades_per_day": 7.7,
+        "median_hold_s": 1118,
+        "fast_share": 0.058,
+        "snipe_share": 0.08,
+        "flip_share": 0.028
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 76,
+          "closed": 76,
+          "open": 0,
+          "net_closed_sol": -1.26,
+          "win_share": 0.092,
+          "median_return": 0.601,
+          "best_copy_sol": 0.48,
+          "lower_bound_sol": -2.7
+        },
+        "delay_3": {
+          "copies": 76,
+          "closed": 76,
+          "open": 0,
+          "net_closed_sol": -1.27,
+          "win_share": 0.092,
+          "median_return": 0.61,
+          "best_copy_sol": 0.48,
+          "lower_bound_sol": -2.69
+        },
+        "delay_8": {
+          "copies": 76,
+          "closed": 76,
+          "open": 0,
+          "net_closed_sol": -1.34,
+          "win_share": 0.079,
+          "median_return": 0.615,
+          "best_copy_sol": 0.42,
+          "lower_bound_sol": -2.76
+        }
+      }
+    },
+    {
+      "rank": 93,
+      "own_rank": 734,
+      "address": "BCDUS718HJyVqnWH8kiCGymNNVzLAv6bSK88wx21eLRg",
+      "class": "winner",
+      "why": "took out 1580.68 SOL more than it put in (1.19x) over 1759 coin-weeks (1757 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1580.677438,
+      "put_in": 8233.851831,
+      "took_out": 9814.529268,
+      "coins": 1757,
+      "first_seen": "2025-10-08T14:30:43Z",
+      "recent": {
+        "days_active": 4,
+        "trades_per_day": 6,
+        "median_hold_s": 478,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 93,
+          "closed": 93,
+          "open": 0,
+          "net_closed_sol": 2.56,
+          "win_share": 0.409,
+          "median_return": 0.283,
+          "best_copy_sol": 1.18,
+          "lower_bound_sol": -0.47
+        },
+        "delay_3": {
+          "copies": 93,
+          "closed": 93,
+          "open": 0,
+          "net_closed_sol": 2.61,
+          "win_share": 0.409,
+          "median_return": 0.281,
+          "best_copy_sol": 1.17,
+          "lower_bound_sol": -0.47
+        },
+        "delay_8": {
+          "copies": 93,
+          "closed": 93,
+          "open": 0,
+          "net_closed_sol": 2.74,
+          "win_share": 0.409,
+          "median_return": 0.269,
+          "best_copy_sol": 1.3,
+          "lower_bound_sol": -0.46
+        }
+      }
+    },
+    {
+      "rank": 94,
+      "own_rank": 736,
+      "address": "Czgt3timKi2k3Zk2kVjgnAQQ2p7KT3imddMGbQNNecum",
+      "class": "winner",
+      "why": "took out 1576.92 SOL more than it put in (1.19x) over 270 coin-weeks (235 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1576.923848,
+      "put_in": 8196.303198,
+      "took_out": 9773.227046,
+      "coins": 235,
+      "first_seen": "2026-07-26T21:15:45Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 3.7,
+        "median_hold_s": 29223,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -1.1,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.1,
+          "lower_bound_sol": -1.1
+        },
+        "delay_3": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -1.1,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.1,
+          "lower_bound_sol": -1.1
+        },
+        "delay_8": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -1.1,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.1,
+          "lower_bound_sol": -1.1
+        }
+      }
+    },
+    {
+      "rank": 95,
+      "own_rank": 739,
+      "address": "FnGVt3jTiyHnm7qoj1v1diuKHis5oMw68CZKqb4hdQnq",
+      "class": "winner",
+      "why": "took out 1572.43 SOL more than it put in (1.38x) over 665 coin-weeks (522 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1572.425638,
+      "put_in": 4146.856379,
+      "took_out": 5719.282018,
+      "coins": 522,
+      "first_seen": "2025-01-31T05:38:57Z",
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 2.5,
+        "median_hold_s": 39704,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 18,
+          "closed": 18,
+          "open": 0,
+          "net_closed_sol": -0.51,
+          "win_share": 0.389,
+          "median_return": 0.923,
+          "best_copy_sol": 0.01,
+          "lower_bound_sol": -0.78
+        },
+        "delay_3": {
+          "copies": 18,
+          "closed": 18,
+          "open": 0,
+          "net_closed_sol": -0.54,
+          "win_share": 0.222,
+          "median_return": 0.893,
+          "best_copy_sol": 0,
+          "lower_bound_sol": -0.8
+        },
+        "delay_8": {
+          "copies": 18,
+          "closed": 18,
+          "open": 0,
+          "net_closed_sol": -0.52,
+          "win_share": 0.278,
+          "median_return": 0.902,
+          "best_copy_sol": 0,
+          "lower_bound_sol": -0.79
+        }
+      }
+    },
+    {
+      "rank": 96,
+      "own_rank": 740,
+      "address": "CKATVkCcJUjpm5xJyjwKdXiJ1LqhDEDr3hQDYkFN9ZFv",
+      "class": "winner",
+      "why": "took out 1570.67 SOL more than it put in (1.10x) over 7526 coin-weeks (7455 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1570.66807,
+      "put_in": 15045.735559,
+      "took_out": 16616.403629,
+      "coins": 7455,
+      "first_seen": "2024-06-29T18:48:58Z",
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 5.8,
+        "median_hold_s": 537,
+        "fast_share": 0.155,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 31,
+          "closed": 31,
+          "open": 0,
+          "net_closed_sol": -0.4,
+          "win_share": 0.161,
+          "median_return": 0.716,
+          "best_copy_sol": 0.41,
+          "lower_bound_sol": -1.18
+        },
+        "delay_3": {
+          "copies": 31,
+          "closed": 31,
+          "open": 0,
+          "net_closed_sol": -0.37,
+          "win_share": 0.194,
+          "median_return": 0.711,
+          "best_copy_sol": 0.42,
+          "lower_bound_sol": -1.16
+        },
+        "delay_8": {
+          "copies": 31,
+          "closed": 31,
+          "open": 0,
+          "net_closed_sol": -0.5,
+          "win_share": 0.129,
+          "median_return": 0.703,
+          "best_copy_sol": 0.37,
+          "lower_bound_sol": -1.2
+        }
+      }
+    },
+    {
+      "rank": 97,
+      "own_rank": 744,
+      "address": "F7FZyKSyhV4mUs6qAQeLnFio2dSS821TgrkCzRRtVWpj",
+      "class": "winner",
+      "why": "took out 1567.56 SOL more than it put in (1.19x) over 268 coin-weeks (233 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1567.561926,
+      "put_in": 8102.037373,
+      "took_out": 9669.599299,
+      "coins": 233,
+      "first_seen": "2026-07-26T21:15:56Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 3.3,
+        "median_hold_s": 18611,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -1.1,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.1,
+          "lower_bound_sol": -1.1
+        },
+        "delay_3": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -1.1,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.1,
+          "lower_bound_sol": -1.1
+        },
+        "delay_8": {
+          "copies": 11,
+          "closed": 11,
+          "open": 0,
+          "net_closed_sol": -1.1,
+          "win_share": 0,
+          "median_return": 0,
+          "best_copy_sol": -0.1,
+          "lower_bound_sol": -1.1
+        }
+      }
+    },
+    {
+      "rank": 98,
+      "own_rank": 746,
+      "address": "741TyxhtrGgdtHJDmygqtjXyxmSLYGEucu42Bguj1tbg",
+      "class": "winner",
+      "why": "took out 1558.63 SOL more than it put in (1.16x) over 3725 coin-weeks (3584 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1558.626554,
+      "put_in": 9625.246136,
+      "took_out": 11183.872691,
+      "coins": 3584,
+      "first_seen": "2024-05-02T11:50:39Z",
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 12.1,
+        "median_hold_s": 192,
+        "fast_share": 0.053,
+        "snipe_share": 0,
+        "flip_share": 0.045
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 95,
+          "closed": 91,
+          "open": 4,
+          "net_closed_sol": -0.87,
+          "win_share": 0.077,
+          "median_return": 0.822,
+          "best_copy_sol": 0.5,
+          "lower_bound_sol": -1.87
+        },
+        "delay_3": {
+          "copies": 95,
+          "closed": 91,
+          "open": 4,
+          "net_closed_sol": -0.86,
+          "win_share": 0.066,
+          "median_return": 0.808,
+          "best_copy_sol": 0.52,
+          "lower_bound_sol": -1.9
+        },
+        "delay_8": {
+          "copies": 95,
+          "closed": 91,
+          "open": 4,
+          "net_closed_sol": -0.91,
+          "win_share": 0.11,
+          "median_return": 0.792,
+          "best_copy_sol": 0.5,
+          "lower_bound_sol": -1.93
+        }
+      }
+    },
+    {
+      "rank": 99,
+      "own_rank": 755,
+      "address": "3NbL2gNYoZ2fXnpsxNwMWdpHhw2f9tfbSxBR5JwcWpKY",
+      "class": "winner",
+      "why": "took out 1545.77 SOL more than it put in (1.10x) over 192 coin-weeks (160 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1545.774919,
+      "put_in": 15245.67076,
+      "took_out": 16791.44568,
+      "coins": 160,
+      "first_seen": "2026-06-29T20:44:25Z",
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 4,
+        "median_hold_s": 137,
+        "fast_share": 0.25,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 30,
+          "closed": 30,
+          "open": 0,
+          "net_closed_sol": 0.3,
+          "win_share": 0.6,
+          "median_return": 1.038,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.13
+        },
+        "delay_3": {
+          "copies": 30,
+          "closed": 30,
+          "open": 0,
+          "net_closed_sol": 0.37,
+          "win_share": 0.567,
+          "median_return": 1.111,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.04
+        },
+        "delay_8": {
+          "copies": 30,
+          "closed": 30,
+          "open": 0,
+          "net_closed_sol": 0.26,
+          "win_share": 0.533,
+          "median_return": 1.076,
+          "best_copy_sol": 0.08,
+          "lower_bound_sol": -0.14
+        }
+      }
+    },
+    {
+      "rank": 100,
+      "own_rank": 758,
+      "address": "HSsJjkHrxezZ1SdhgdivhDGXbxANicWbKvKsVtrMrJvG",
+      "class": "winner",
+      "why": "took out 1544.27 SOL more than it put in (1.05x) over 3844 coin-weeks (3455 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+      "pnl_sol": 1544.273637,
+      "put_in": 28852.405075,
+      "took_out": 30396.678711,
+      "coins": 3455,
+      "first_seen": "2025-11-09T21:11:55Z",
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 9.3,
+        "median_hold_s": 192,
+        "fast_share": 0.214,
+        "snipe_share": 0,
+        "flip_share": 0
+      },
+      "followable": true,
+      "follower": {
+        "delay_1": {
+          "copies": 110,
+          "closed": 110,
+          "open": 0,
+          "net_closed_sol": -0.2,
+          "win_share": 0.482,
+          "median_return": 0.999,
+          "best_copy_sol": 0.06,
+          "lower_bound_sol": -0.5
+        },
+        "delay_3": {
+          "copies": 110,
+          "closed": 110,
+          "open": 0,
+          "net_closed_sol": -0.14,
+          "win_share": 0.473,
+          "median_return": 0.995,
+          "best_copy_sol": 0.06,
+          "lower_bound_sol": -0.42
+        },
+        "delay_8": {
+          "copies": 110,
+          "closed": 110,
+          "open": 0,
+          "net_closed_sol": -0.14,
+          "win_share": 0.436,
+          "median_return": 0.993,
+          "best_copy_sol": 0.06,
+          "lower_bound_sol": -0.42
+        }
+      }
+    }
+  ],
+  "total": 361,
+  "followable_only": true,
+  "sort": "own",
+  "follower_rules": {
+    "epochs": [
+      1056,
+      1057,
+      1058,
+      1059,
+      1060,
+      1061,
+      1062,
+      1063,
+      1064,
+      1065,
+      1066,
+      1067,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072,
+      1073,
+      1074,
+      1075,
+      1076,
+      1077,
+      1078,
+      1079,
+      1080,
+      1081,
+      1082,
+      1083
+    ],
+    "size_sol": 0.1,
+    "fees": {
+      "curve": 0.0125,
+      "pool": "tiers by market cap"
+    },
+    "delays_slots": [
+      1,
+      3,
+      8
+    ],
+    "ranked_on": "a 90% lower bound on the net SOL over closed copies (net - 1.645 x sd x sqrt(closed)), 1 slot behind, 20+ closed",
+    "forward_test": "each wallet scored on the 14-28 days before a week and read on that week (six folds, Oct 2026): the top 25 of the whole list lost a follower money in every fold; the followable top 25 was about as often up as down. A past follower record is a weak signal, not a list that pays",
+    "how": "each buy the wallet made, entered by a follower N slots later with the size in SOL at that trade's reserves, exited N slots after the wallet's next sell of the coin; pump.fun's curve fee and PumpSwap's fee at the coin's market-cap tier each way; open copies (no sell yet) are counted apart"
+  },
+  "stream": {
+    "what": "Every pump.fun create, trade, graduation and migration, pushed over a WebSocket about 1.5 s after its block",
+    "trial": "7 days free on a free key: POST https://pumpdata.fun/stream/trial with x-api-key (a key: https://pumpdata.fun/keys)",
+    "docs": "https://pumpdata.fun/pump-fun-stream"
+  },
+  "forward_test": "Measured Oct 29: the Oct 24 list's wallets three days later (realized SOL). Followable: 91 made money, 93 lost; the top 25 followable, median -0.69 SOL among those that traded. The whole leaderboard: 938 up, 599 down. A past record says who won; for followable wallets it did not say who wins next. Short window; re-read with each build."
+}

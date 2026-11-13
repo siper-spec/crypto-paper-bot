@@ -1,0 +1,321 @@
+{
+  "source": "pumpdata.fun",
+  "mode": "READ_ONLY",
+  "wallets_found": 100,
+  "wallets_checked": 14,
+  "shortlisted": 11,
+  "top_candidates": [
+    {
+      "address": "12PPVhB8jC9pq5bfcbf9VZcptmXuvsAFyeH8VK7L93zq",
+      "score": 87.18,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2644.459498,
+      "coins": 10463,
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 16.6,
+        "median_hold_s": 80436,
+        "fast_share": 0.016,
+        "snipe_share": 0,
+        "flip_share": 0.07
+      }
+    },
+    {
+      "address": "3gw9qKR2CqEFSxSSuPJbRfVknHq7WSgbRhf9f9MQdjMu",
+      "score": 85.06,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2400.318939,
+      "coins": 5653,
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 7.3,
+        "median_hold_s": 42068,
+        "fast_share": 0.055,
+        "snipe_share": 0,
+        "flip_share": 0.024
+      }
+    },
+    {
+      "address": "2p2mgFLmzN82sShZeAaBGmj9zFpam4xu8g4g3wqx2ks6",
+      "score": 79.85,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 5345.687207,
+      "coins": 10109,
+      "recent": {
+        "days_active": 8,
+        "trades_per_day": 6.4,
+        "median_hold_s": 756,
+        "fast_share": 0.216,
+        "snipe_share": 0,
+        "flip_share": 0.033
+      }
+    },
+    {
+      "address": "49LsvaMuS4mbaKRDTr7hWfaFzUR9DRXhegDhLCTDqkdg",
+      "score": 79.12,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2683.191011,
+      "coins": 3278,
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 5,
+        "median_hold_s": 3223,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    },
+    {
+      "address": "2w9aQdfRn1oaLGQFsomP8xsQvCHvgsetWk4Raa8SF5MT",
+      "score": 77.59,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2053.1746,
+      "coins": 235,
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 4,
+        "median_hold_s": 32281,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    },
+    {
+      "address": "3CdG3mgaumweQsUpkMgp5b5wHFgd3nJwh2aDw1ktZA5i",
+      "score": 77.24,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2165.00396,
+      "coins": 60,
+      "recent": {
+        "days_active": 5,
+        "trades_per_day": 2,
+        "median_hold_s": 103900,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    },
+    {
+      "address": "2NoNSAa4F9Srj3M6myFtKTk9VWrYqyHBMbCwwepfYmwi",
+      "score": 75.94,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2453.953127,
+      "coins": 813,
+      "recent": {
+        "days_active": 7,
+        "trades_per_day": 3.1,
+        "median_hold_s": 3399,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    },
+    {
+      "address": "3xBmQQijfUghKXmnvjUKFEwrobxV2gmz2mYvFPoLoG4C",
+      "score": 73.99,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 1746.914958,
+      "coins": 375,
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 12.8,
+        "median_hold_s": 4841,
+        "fast_share": 0.064,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    },
+    {
+      "address": "33nDQT9RCkPHG2CWMXuYvbXVM12UDBtGHn7ANH7Th8h8",
+      "score": 70.78,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2257.331368,
+      "coins": 5446,
+      "recent": {
+        "days_active": 11,
+        "trades_per_day": 14.4,
+        "median_hold_s": 182,
+        "fast_share": 0.184,
+        "snipe_share": 0,
+        "flip_share": 0.134
+      }
+    },
+    {
+      "address": "3aCzCNLf1XwP9kJjh4fk9BLUtt7eAaYFpivUeccan39j",
+      "score": 69.63,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 1950.04608,
+      "coins": 815,
+      "recent": {
+        "days_active": 2,
+        "trades_per_day": 6,
+        "median_hold_s": 256,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    },
+    {
+      "address": "3YRjC25tuP7K8Pg1PQiC2xpdmgiAi8p4pGko9mgpLuFH",
+      "score": 68.37,
+      "copy_research_candidate": true,
+      "reasons": [],
+      "class": "winner",
+      "pnl_sol": 2921.704884,
+      "coins": 142,
+      "recent": {
+        "days_active": 3,
+        "trades_per_day": 6.3,
+        "median_hold_s": 468,
+        "fast_share": 0.053,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    },
+    {
+      "address": "21cutQKXw6opqwAcUfVVSDFbjKjs9NA94cUTfYBy4SZ6",
+      "score": 0,
+      "copy_research_candidate": false,
+      "reasons": [
+        "too_fast_to_copy"
+      ],
+      "class": "winner",
+      "pnl_sol": 1666.944366,
+      "coins": 8845,
+      "recent": {
+        "days_active": 8,
+        "trades_per_day": 15.1,
+        "median_hold_s": 162,
+        "fast_share": 0,
+        "snipe_share": 0,
+        "flip_share": 0.088
+      }
+    },
+    {
+      "address": "2Xjizmu5FwVX36JyVGcWMDaNoQN1VWU25tz1TFk24nd7",
+      "score": 0,
+      "copy_research_candidate": false,
+      "reasons": [
+        "too_fast_to_copy"
+      ],
+      "class": "winner",
+      "pnl_sol": 2977.385135,
+      "coins": 7988,
+      "recent": {
+        "days_active": 10,
+        "trades_per_day": 19.7,
+        "median_hold_s": 143,
+        "fast_share": 0.107,
+        "snipe_share": 0,
+        "flip_share": 0.119
+      }
+    },
+    {
+      "address": "3NbL2gNYoZ2fXnpsxNwMWdpHhw2f9tfbSxBR5JwcWpKY",
+      "score": 0,
+      "copy_research_candidate": false,
+      "reasons": [
+        "too_fast_to_copy"
+      ],
+      "class": "winner",
+      "pnl_sol": 1545.77492,
+      "coins": 160,
+      "recent": {
+        "days_active": 1,
+        "trades_per_day": 4,
+        "median_hold_s": 137,
+        "fast_share": 0.25,
+        "snipe_share": 0,
+        "flip_share": 0
+      }
+    }
+  ],
+  "lookup_errors": [
+    {
+      "address": "4BNMaUdBjUB54SKCTjBEoiEjcF3nGP5pqj3KXV4VEnCu",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "4MNiUt5kptveg8HN2nmcmRzoVRThBFXoAtfFrbSdWvJR",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "4VvdcB1Bde2qCPdbxkFcy79qk3cT1nMXFoGuhfhCa7gr",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "4hvruD7YDRZL2xh5aCUrN2DoxZKCjGv9jofDXMvwGagC",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "54xrJ798DGwH1UA2H35QtAzKT55t8pL8bjBs9Arz3eoP",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "55scSVyCZ23B6tRhocrt9xX4N3nTFSWvdjbbypwH9mkf",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "5CH9ve1kRkQn9W8ptKsqpGHPx3aJeM2tV2cnrrsdoMbd",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "5HCR1tbsSWh5zbHeaJLQKfdUVmE3S5y337KHkgYRbdXq",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "5TwL5fHt6KqzzeiCDYEJK6s9vUauKBynVhYVvdGw7jgi",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "5d3jQcuUvsuHyZkhdp78FFqc7WogrzZpTtec1X9VNkuE",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "5ecxH9qwq2vE13wT7Y4Cethe2Wv6tLNESMQLnTCeg5ky",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "5t9xBNuDdGTGpjaPTx6hKd7sdRJbvtKS8Mhq6qVbo8Qz",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "5vg7he5HibvsAW86wfiuP6jw7VwKmUAnP6P93mVCdpJu",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "6EDaVsS6enYgJ81tmhEkiKFcb4HuzPUVFZeom6PHUqN3",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "6JJdhkhk2fsxJcv5f2pEfrkMfHDe6bJSWT6JF2pUXGAK",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "address": "6XBPbKT2LtwFj3qpRG3CCVyJfSnQE7SE9Ub6VQLRWUB1",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "historical_follower_profit_eur": null,
+  "conclusion": "Wallet ranking only. No actual delayed copy trade replay or verified EUR P&L."
+}
