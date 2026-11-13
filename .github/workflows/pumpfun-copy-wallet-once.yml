@@ -1,0 +1,36 @@
+name: Pump.fun copy-wallet research (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/pumpfun-copy-wallet-once.yml'
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rank copyable wallet candidates
+        run: python pumpfun/copy_wallet_scan.py
+      - name: Upload research
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pumpfun-copy-wallet-report
+          path: pumpfun/copy_research/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Save report to research branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pumpfun/copy_research/
+          git commit -m "Save read-only wallet shortlist" || exit 0
+          git push origin HEAD:pumpfun-readonly-collector
