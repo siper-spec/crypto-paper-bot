@@ -1,0 +1,40 @@
+name: Pump.fun paper-trade experiment (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/pumpfun-paper-once.yml'
+permissions:
+  contents: write
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install read-only market libraries
+        run: pip install requests websocket-client
+      - name: Paper trade for nine minutes
+        env:
+          SESSION_SECONDS: '540'
+        run: python pumpfun/live_paper_session.py
+      - name: Archive simulated results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pumpfun-paper-session
+          path: pumpfun/paper_results/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Commit paper results into research branch
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pumpfun/paper_results/
+          git commit -m 'Save one-shot live Pump.fun paper experiment' || exit 0
+          git push origin HEAD:pumpfun-readonly-collector
