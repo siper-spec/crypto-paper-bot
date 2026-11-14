@@ -1,0 +1,46 @@
+name: Pump.fun committee V2 paired fee experiment
+on:
+  push:
+    paths:
+      - '.github/workflows/pumpfun-committee-v2-once.yml'
+permissions:
+  contents: read
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests
+      - name: Unit-test paired cost arithmetic
+        run: |
+          python -m py_compile pumpfun/committee_v2_test.py
+          PYTHONPATH=pumpfun python - <<'PY'
+          from committee_v2_test import *
+          assert breakeven(COSTS['pump_app_observed_fixed'])>breakeven(COSTS['local_api_hypothetical'])
+          assert proceeds(1,1,COSTS['pump_app_observed_fixed'])<SIZE
+          assert proceeds(1,1.35,COSTS['local_api_hypothetical'])>SIZE+COSTS['local_api_hypothetical']['fixed']
+          c=Committee()
+          t='TEST';q={'price':1.04,'liq':25000,'volume':5000,'buy':30,'sell':10,'symbol':'TEST','at':time.monotonic()}
+          c.history[t]=[dict(q,price=1.0),dict(q,price=1.02)]
+          c.tick({t:q},entry=True)
+          assert all(a['open'] for k,a in c.arms.items() if k.startswith('momentum'))
+          print('PASS: paired entries, costs, and math')
+          PY
+      - name: Four-minute real-market paper comparison
+        env:
+          SECONDS: '240'
+        run: python pumpfun/committee_v2_test.py
+      - name: Archive complete results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pumpfun-committee-v2-paired-results
+          path: pumpfun/committee_v2_results/
+          if-no-files-found: warn
+          retention-days: 14
