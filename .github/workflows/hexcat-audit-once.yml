@@ -1,0 +1,98 @@
+name: HEXCAT open-source bot audit (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/hexcat-audit-once.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - name: Checkout isolated workspace
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Clone upstream HEXCAT at recorded revision
+        run: |
+          git clone --depth 1 https://github.com/MyWestLord/hexcat.git hexcat-upstream
+          cd hexcat-upstream
+          git rev-parse HEAD | tee ../hexcat-upstream-commit.txt
+      - name: Install Python dependencies
+        working-directory: hexcat-upstream
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+      - name: Run upstream tests
+        working-directory: hexcat-upstream
+        run: |
+          set +e
+          pytest -q tests/ > ../hexcat-tests.txt 2>&1
+          RESULT=$?
+          cat ../hexcat-tests.txt
+          echo "exit_code=$RESULT" >> ../hexcat-tests.txt
+          exit 0
+      - name: Audit exit accounting and unverified safety card
+        working-directory: hexcat-upstream
+        run: |
+          python - <<'PY' > ../hexcat-audit.txt 2>&1
+          from hexcat.config import Exits,Omens
+          from hexcat.ledger import Ledger,Position
+          from hexcat.omen import Card
+          from hexcat import tarot
+          p=Position('mint','$TEST',1.0,1.5)
+          a=Ledger(Exits()).step(p,4.2)
+          print('single_price_jump_actions',a)
+          print('total_sale_fraction_same_tick',sum(frac for _,frac in a))
+          print('potential_oversell',sum(frac for _,frac in a)>1)
+          cards=[Card(str(i),'check','treat','verified') for i in range(7)]
+          cards.append(Card('VII','KOL','treat','X off'))
+          print('unverified_kol_green_verdict',tarot.verdict(cards))
+          PY
+          cat ../hexcat-audit.txt
+      - name: Run bounded upstream paper session without wallet keys
+        working-directory: hexcat-upstream
+        env:
+          HEXCAT_LIVE: '0'
+          HEXCAT_PRIVATE_KEY: ''
+          HEXCAT_X_BEARER: ''
+          PYTHONUNBUFFERED: '1'
+        run: |
+          set +e
+          timeout -s INT -k 10s 100s python -m hexcat > ../hexcat-paper.log 2>&1
+          STATUS=$?
+          echo "session_exit_code=$STATUS" >> ../hexcat-paper.log
+          tail -n 70 ../hexcat-paper.log
+          exit 0
+      - name: Summarize test
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          a=Path('hexcat-paper.log').read_text(errors='replace') if Path('hexcat-paper.log').exists() else ''
+          t=Path('hexcat-tests.txt').read_text(errors='replace') if Path('hexcat-tests.txt').exists() else ''
+          out={'upstream_commit':Path('hexcat-upstream-commit.txt').read_text().strip() if Path('hexcat-upstream-commit.txt').exists() else None,
+               'unit_test_output_tail':t[-1500:], 'paper_launches_scored_approx':a.count('THE DEV'),
+               'paper_treat_messages':a.count('8/8 cards'), 'paper_trick_messages':a.count('TRICK!'),
+               'paper_feed_errors':a.count('[pumpportal]'), 'paper_log_tail':a[-1600:],
+               'verified_profit_eur':None,'live_trades':0}
+          Path('hexcat-audit-summary.json').write_text(json.dumps(out,indent=2))
+          print(json.dumps(out,indent=2))
+          PY
+      - name: Save independent artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hexcat-source-audit-paper-test
+          path: |
+            hexcat-upstream-commit.txt
+            hexcat-tests.txt
+            hexcat-audit.txt
+            hexcat-paper.log
+            hexcat-audit-summary.json
+          if-no-files-found: warn
+          retention-days: 14
