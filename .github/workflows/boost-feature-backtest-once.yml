@@ -1,0 +1,30 @@
+name: BOOST early-flow filters historical evaluation (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/boost-feature-backtest-once.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests zstandard
+      - run: python -m py_compile pumpfun/boost_feature_backtest.py
+      - name: Evaluate early buyer and volume filters
+        run: python pumpfun/boost_feature_backtest.py
+      - name: Save historical feature report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: boost-flow-filter-analysis
+          path: pumpfun/boost_feature_results/
+          retention-days: 14
+          if-no-files-found: warn
