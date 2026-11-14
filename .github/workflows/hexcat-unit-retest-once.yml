@@ -1,0 +1,44 @@
+name: HEXCAT corrected unit and safety regression (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/hexcat-unit-retest-once.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          git clone --depth 1 https://github.com/MyWestLord/hexcat.git hexcat-upstream
+          pip install -r hexcat-upstream/requirements.txt pytest
+      - name: Execute original HEXCAT unit suite
+        working-directory: hexcat-upstream
+        run: |
+          PYTHONPATH=. python -m pytest -q tests | tee ../hexcat-corrected-tests.txt
+      - name: Check stale peak multiple exit scenario
+        working-directory: hexcat-upstream
+        run: |
+          python - <<'PY' | tee ../hexcat-edge-case.txt
+          from hexcat.config import Exits
+          from hexcat.ledger import Ledger,Position
+          p=Position('mint','TEST',1.,1.5,peak=10.)
+          actions=Ledger(Exits()).step(p,4.2)
+          total=sum(x[1] for x in actions)
+          print('actions',actions,'sum_fraction',total,'oversell',total>1)
+          assert total<=1, 'BUG: exits request more than available bag'
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hexcat-unit-safety-regression
+          path: |
+            hexcat-corrected-tests.txt
+            hexcat-edge-case.txt
+          if-no-files-found: warn
+          retention-days: 14
