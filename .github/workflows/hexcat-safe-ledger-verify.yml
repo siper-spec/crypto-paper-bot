@@ -1,0 +1,38 @@
+name: HEXCAT safe-ledger verification (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/hexcat-safe-ledger-verify.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify exit allocation never exceeds holdings
+        run: |
+          python - <<'PY'
+          import sys,random
+          sys.path.insert(0,'pumpfun')
+          from hexcat_safe_ledger import Ledger,Exits,Position
+          p=Position('mint','X',1,1.5,peak=10)
+          actions=Ledger(Exits()).step(p,4.2)
+          print('previously failing scenario:',actions)
+          assert sum(frac for _,frac in actions)<=1.
+          assert actions==[('TP1',.4),('TP2',.4),('runner',.19999999999999996)] or abs(sum(frac for _,frac in actions)-1)<1e-10
+          for i in range(3000):
+              left=random.random()
+              p=Position('m','X',1,1.,left=left,peak=random.uniform(1,15))
+              if random.random()>.5:p.hit.add(0)
+              out=Ledger(Exits()).step(p,random.uniform(.1,15))
+              assert sum(f for _,f in out)<=left+1e-9, (out,left)
+              assert all(f>=0 for _,f in out)
+          print('PASS: 3000 random exit-allocation cases')
+          PY
