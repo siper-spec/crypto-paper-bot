@@ -1,0 +1,30 @@
+name: BOOST creator and insider sell-risk study (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/boost-creator-risk-once.yml'
+permissions:
+  contents: read
+jobs:
+  study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests zstandard
+      - run: python -m py_compile pumpfun/boost_creator_risk_backtest.py
+      - name: Analyze historical developer and sell concentration
+        run: python pumpfun/boost_creator_risk_backtest.py
+      - name: Save every token and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: boost-creator-sell-risk-results
+          path: pumpfun/creator_risk_results/
+          retention-days: 14
+          if-no-files-found: warn
