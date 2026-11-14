@@ -1,0 +1,29 @@
+name: Pump.fun committee cost-risk verification (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/pumpfun-committee-risk-test.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify break-even and no-fake-edge controls
+        run: |
+          python -m py_compile pumpfun/committee_risk_veto.py
+          PYTHONPATH=pumpfun python - <<'PY'
+          from committee_risk_veto import round_trip_break_even,evaluate_order
+          assert .17<round_trip_break_even(5)<.20
+          assert not evaluate_order(5,.14,.12)['paper_entry_allowed']
+          assert 'no_out_of_sample_win_rate' in evaluate_order(5,.40,.12)['vetoes']
+          assert round_trip_break_even(2)>round_trip_break_even(10)
+          print('PASS: fixed costs, break-even veto, sample-size veto')
+          PY
