@@ -1,0 +1,26 @@
+name: BOOST archive feature schema check (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/boost-feature-schema-once.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests zstandard
+      - run: python pumpfun/boost_features_schema.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: boost-feature-schema
+          path: pumpfun/boost_features/schema.json
+          retention-days: 14
