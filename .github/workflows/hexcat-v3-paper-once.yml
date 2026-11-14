@@ -1,0 +1,49 @@
+name: HEXCAT V3 observable paper trades (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/hexcat-v3-paper-once.yml'
+permissions:
+  contents: read
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install market data libraries
+        run: pip install requests websocket-client
+      - name: Verify model and short shadow-trade logic
+        run: |
+          python -m py_compile pumpfun/hexcat_v3_shadow.py
+          python - <<'PY'
+          import sys
+          sys.path.insert(0,'pumpfun')
+          from hexcat_v3_shadow import Engine
+          e=Engine()
+          m='test-mint';e.launch[m]={'at':e.clock()-20,'creator':'dev','symbol':'TEST'}
+          e.hist[m]=[{'price':1}]
+          e.tick({m:{'price':1.01,'liquidity':0,'cap':10000,'buys':0,'sells':0,'observed':e.clock()}},True)
+          a=e.arms['aggressive']
+          assert a['entries']==1,(a['entries'],a['reject'])
+          e.tick({m:{'price':1.03,'liquidity':0,'cap':10000,'buys':0,'sells':0,'observed':e.clock()}},False)
+          assert len(a['open'])==1
+          print('PASS: live-quote shadow entry is available; no synthetic trade included in production results')
+          PY
+      - name: Run real-market quote-based paper session
+        env:
+          SESSION_SECONDS: '240'
+        run: python pumpfun/hexcat_v3_shadow.py
+      - name: Upload actual shadow experiment logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hexcat-v3-paper-results
+          path: pumpfun/hexcat_v3_results/
+          if-no-files-found: warn
+          retention-days: 14
