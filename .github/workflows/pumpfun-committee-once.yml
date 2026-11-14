@@ -1,0 +1,50 @@
+name: Pump.fun trading committee V1 (one shot)
+on:
+  push:
+    paths:
+      - '.github/workflows/pumpfun-committee-once.yml'
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pumpfun-readonly-collector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Unit test execution and ledger
+        run: |
+          python -m py_compile pumpfun/trading_committee_v1.py
+          python - <<'PY'
+          import sys
+          sys.path.insert(0,'pumpfun')
+          from trading_committee_v1 import Committee,sell_value
+          assert 0<sell_value(5,1,1)<5
+          e=Committee()
+          m="fake"
+          q={"price":1,"liq":15000,"buy":20,"sell":10,"vol5":5000,"cap":25000,"symbol":"TEST","dex":"test","at":e.clock()}
+          e.history[m].append(dict(q,price=.97))
+          e.step({m:q},allow=True)
+          assert e.arms["momentum"]["open"],e.arms["momentum"]["rejects"]
+          e.step({m:dict(q,price=1.3)},allow=False)
+          assert len(e.arms["momentum"]["trades"])==1
+          assert e.arms["momentum"]["trades"][0]["pnl_usdc"]>0
+          print("PASS: synthetic bookkeeping and exit test only, excluded from market results")
+          PY
+      - name: Run live quote committee
+        env:
+          SESSION_SECONDS: '240'
+        run: python pumpfun/trading_committee_v1.py
+      - name: Archive results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pumpfun-committee-v1-results
+          path: pumpfun/committee_results/
+          if-no-files-found: warn
+          retention-days: 14
